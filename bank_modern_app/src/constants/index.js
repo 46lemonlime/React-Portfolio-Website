@@ -25,13 +25,14 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "services",
-    title: "Services",
-  },
-  {
     id: "portfolio",
     title: "Portfolio",
   },
+  {
+    id: "services",
+    title: "Services",
+  },
+
   {
     id: "contact",
     title: "Contact",
@@ -42,21 +43,21 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Skills",
     content:
       "The best credit cards offer some tantalizing combinations of promotions and prizes",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Education",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Experience",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },
@@ -92,18 +93,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "CS Experience",
+    value: "+3y",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Spanish & English",
+    value: "Native",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Currently",
+    value: "Available",
   },
 ];
 

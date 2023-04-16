@@ -1,5 +1,6 @@
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
+import GetProjects from "./GetProjects";
 
 const Billing = () => {
   return (
@@ -15,14 +16,15 @@ const Billing = () => {
       </div>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Easily control your <br className="sm:block hidden" /> billing &
-          invoicing.
+          My latest work <br className="sm:block hidden" /> and completed
+          projects.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem cum, nostrum provident delectus alias adipisci sit
-          quidem perspiciatis. Odit, similique.
+          In this section, you will find a comprehensive collection of my latest
+          completed projects, showcasing my skills and expertise in various
+          areas of interest.
         </p>
+        <GetProjects styles={`mt-10`} />
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <img
             src={apple}

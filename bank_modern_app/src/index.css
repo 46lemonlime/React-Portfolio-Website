@@ -155,3 +155,11 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.social-media-icon {
+  filter: grayscale(100%);
+}
+
+.social-media-icon:hover {
+  fill: #ff0000;
+}

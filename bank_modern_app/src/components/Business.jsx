@@ -1,6 +1,6 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import GetRoadmap from "./GetRoadmap";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -29,16 +29,16 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block hidden" /> we’ll handle
-          the money.
+          My journey, <br className="sm:block hidden" /> progress and
+          documentation.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+          Please find a link to my roadmap in Computer Science. Here you will
+          find a notion document with courses, tutorials and certifications I
+          have completed, as well as my current work in progress.
         </p>
 
-        <Button styles={`mt-10`} />
+        <GetRoadmap styles={`mt-10`} />
       </div>
 
       <div className={`${layout.sectionImg} flex-col `}>

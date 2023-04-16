@@ -7,13 +7,13 @@ const CardDeal = () => {
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Find a better card deal <br className="sm:block hidden" /> in few easy
-          steps.
+          Services & Pricing: <br className="sm:block hidden" /> Affordable
+          Solutions for Your Business Needs.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
-          porro quo exercitationem officia cumque dolore ipsa ab autem molestias
-          consequatur.
+          Whether you're looking for custom software solutions, modern website
+          design, or expert customer service, our pricing is transparent and
+          competitive. You will get the best possible value for your investment.
         </p>
         <Button styles="mt-10" />
       </div>
