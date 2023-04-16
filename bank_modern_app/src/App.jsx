@@ -5,9 +5,9 @@ import {
   Navbar,
   Hero,
   Stats,
-  Business,
-  Billing,
-  CardDeal,
+  About,
+  Portfolio,
+  Services,
   Testimonials,
   Clients,
   CTA,
@@ -31,9 +31,9 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Business />
-          <Billing />
-          <CardDeal />
+          <About />
+          <Portfolio />
+          <Services />
           <Testimonials />
           <Clients />
           <CTA />
