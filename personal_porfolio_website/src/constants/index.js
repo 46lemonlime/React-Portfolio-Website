@@ -69,7 +69,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "I cannot recommend this service highly enough - consistently exceeded my expectations and provided exceptional value.",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -77,7 +77,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "From start to finish, working with Jeison was a seamless and enjoyable experience. He is a true professional and a pleasure to work with.",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -85,7 +85,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "I was blown away by the level of expertise and dedication that JsonDev brought to our project. He truly cares about his clients and it shows in his work.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,

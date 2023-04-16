@@ -10,7 +10,7 @@ const GetRoadmap = ({ styles }) => (
       )
     }
   >
-    Roadmap
+    Get Roadmap
     <img
       src={notion}
       alt="notion"
