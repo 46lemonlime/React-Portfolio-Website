@@ -21,7 +21,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import notion from "./notion.svg";
+import notion from "./Notion.svg";
 import hackthebox from "./hackthebox.svg";
 import tryhackme from "./tryhackme.svg";
 import cv from "./cv.pdf";
