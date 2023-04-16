@@ -13,7 +13,6 @@ const GetCV = () => {
         >
           <div className={`${styles.flexStart} flex-row`}>
             <p className="font-poppins font-medium text-[18px] leading-[23px] mr-3">
-              juan
               <span className="text-gradient">CV</span>
             </p>
             <img

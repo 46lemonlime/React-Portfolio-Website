@@ -13,6 +13,8 @@ import {
   send,
   shield,
   star,
+  hackthebox,
+  tryhackme,
 } from "../assets";
 
 export const navLinks = [
@@ -193,6 +195,16 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
+    link: "https://www.linkedin.com/",
+  },
+  {
+    id: "social-media-5",
+    icon: hackthebox,
+    link: "https://www.linkedin.com/",
+  },
+  {
+    id: "social-media-6",
+    icon: tryhackme,
     link: "https://www.linkedin.com/",
   },
 ];
