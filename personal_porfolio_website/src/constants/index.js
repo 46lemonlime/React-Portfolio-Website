@@ -47,21 +47,21 @@ export const features = [
     icon: star,
     title: "Skills",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, dolor?",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Education",
+    title: "Education & Experience",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Ratione iste praesentium saepe, quae eaque ad nihil et laudantium.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Experience",
+    title: "Current Setup",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Minima vero voluptatem architecto animi veritatis! Ullam numquam quibusdam odit?",
   },
 ];
 
