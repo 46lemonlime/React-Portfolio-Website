@@ -1,4 +1,4 @@
-import { notion } from "../assets";
+import { notionBlack } from "../assets";
 
 const GetRoadmap = ({ styles }) => (
   <button
@@ -12,8 +12,8 @@ const GetRoadmap = ({ styles }) => (
   >
     Get Roadmap
     <img
-      src={notion}
-      alt="notion"
+      src={notionBlack}
+      alt="notionBlack"
       className="w-[28px] h-[28px] object-contain ml-2"
     />
   </button>

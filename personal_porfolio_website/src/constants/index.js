@@ -15,6 +15,9 @@ import {
   star,
   hackthebox,
   tryhackme,
+  github,
+  notionBlack,
+  notion,
 } from "../assets";
 
 export const navLinks = [
@@ -205,6 +208,16 @@ export const socialMedia = [
   {
     id: "social-media-6",
     icon: tryhackme,
+    link: "https://www.linkedin.com/",
+  },
+  {
+    id: "social-media-7",
+    icon: github,
+    link: "https://www.linkedin.com/",
+  },
+  {
+    id: "social-media-8",
+    icon: notion,
     link: "https://www.linkedin.com/",
   },
 ];
