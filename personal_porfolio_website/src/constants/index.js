@@ -17,7 +17,7 @@ import {
   tryhackme,
   github,
   notionBlack,
-  notion,
+  notionWhite,
 } from "../assets";
 
 export const navLinks = [
@@ -217,7 +217,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-8",
-    icon: notion,
+    icon: notionWhite,
     link: "https://www.linkedin.com/",
   },
 ];

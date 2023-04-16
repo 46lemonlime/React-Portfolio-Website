@@ -22,7 +22,7 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import notionBlack from "./notionBlack.svg";
-import notion from "./notion.svg";
+import notionWhite from "./notionWhite.svg";
 import hackthebox from "./hackthebox.svg";
 import tryhackme from "./tryhackme.svg";
 import github from "./github.svg";
@@ -56,7 +56,7 @@ export {
   linkedin,
   twitter,
   notionBlack,
-  notion,
+  notionWhite,
   hackthebox,
   tryhackme,
   github,
