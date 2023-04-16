@@ -1,4 +1,7 @@
 04.2023
-- first deploment.
+- first website upload and deployment
 - added tryhackme and hackthebox social icons,features.
 - fixed responsiveness bug with Stats.jsx
+- Fixed deployment bug
+- Fix download CV not working on deployed site
+- Change cv.pfg document to hide personal details (personal phone + personal email) until I have a corporate one.

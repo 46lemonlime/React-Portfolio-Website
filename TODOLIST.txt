@@ -1,32 +1,22 @@
-TODO's
+**TODO LIST**
 
 TODO #1:
-- Fix deployment bug.
-/*
-RollupError: Could not resolve "./notion.svg" from "src/assets/index.js"
-    at error (file:///vercel/path0/personal_porfolio_website/node_modules/rollup/dist/es/shared/node-entry.js:2128:30)
-    at ModuleLoader.handleInvalidResolvedId (file:///vercel/path0/personal_porfolio_website/node_modules/rollup/dist/es/shared/node-entry.js:23782:24)
-    at file:///vercel/path0/personal_porfolio_website/node_modules/rollup/dist/es/shared/node-entry.js:23744:26
-Error: Command "npm run build" exited with 1
-Deployment completed
-BUILD_UTILS_SPAWN_1: Command "npm run build" exited with 1 
-*/
+- Get domain, decide on supplier. corporate email?
 
 TODO #2:
-- Fix download CV not working on deployed site
-
-TODO #3:
-- Get domain
-
-TODO #4:
 - Implement secondary pages for: Projects,Services,Contact
 
-TODO #5:
+TODO #3:
 - Implement hover effect on social media icons and navbar.
 
-TODO #6:
+TODO #4:
 - Change website browser name and browser icon
 
-TODO #7:
-- Change cv.pfg document to hide personal details (personal phone + personal email) until I have a corporate one.
+TODO #5:
+
 - Implement features to the GetCV component so that the downloaded file has the last update date in it.
+
+TODO #6:
+- Cambiar todos los GetXXX por Button pasandole props styles y children para ser mas reusable.
+
+TODO #7:
