@@ -22,3 +22,8 @@ TODO #6:
 TODO #7:
 - Develop complete JsonDev logo
 https://logomakr.com/
+
+TODO #8:
+- Improve image loading time:
+Responsive images - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+Lazy loading - https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
