@@ -1,6 +1,6 @@
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
-import GetProjects from "./GetProjects";
+import Button from "./Button";
 
 const Portfolio = () => {
   return (
@@ -24,7 +24,7 @@ const Portfolio = () => {
           completed projects, showcasing my skills and expertise in various
           areas of interest.
         </p>
-        <GetProjects styles={`mt-10`} />
+        <Button styles={`mt-10`} children={"Get Projects"} />
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <img
             src={apple}

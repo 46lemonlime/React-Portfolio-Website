@@ -3,7 +3,7 @@ import Portfolio from "./Portfolio";
 import Services from "./Services";
 import About from "./About";
 import Clients from "./Clients";
-import CTA from "./CTA";
+import Contact from "./Contact";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
@@ -15,7 +15,7 @@ export {
   Services,
   About,
   Clients,
-  CTA,
+  Contact,
   Stats,
   Footer,
   Testimonials,

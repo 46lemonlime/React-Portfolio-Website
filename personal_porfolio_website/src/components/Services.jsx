@@ -15,7 +15,7 @@ const Services = () => {
           design, or expert customer service, my pricing is transparent and
           competitive. You will get the best possible value for your investment.
         </p>
-        <Button styles="mt-10" />
+        <Button styles="mt-10" children={"Get Started"} />
       </div>
       <div className={layout.sectionImg}>
         <img src={card} alt="card" className="w-[100%] h-[100%]" />

@@ -1,3 +1,6 @@
+05.2023
+- Cambiar todos los GetXXX por Button pasandole props styles y children para ser mas reusable.
+
 04.2023
 - first website upload and deployment
 - added tryhackme and hackthebox social icons,features.

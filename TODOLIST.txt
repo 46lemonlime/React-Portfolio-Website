@@ -8,15 +8,17 @@ TODO #2:
 
 TODO #3:
 - Implement hover effect on social media icons and navbar.
+https://tailwindcss.com/docs/fill#setting-the-fill-color
 
 TODO #4:
 - Change website browser name and browser icon
 
 TODO #5:
-
 - Implement features to the GetCV component so that the downloaded file has the last update date in it.
 
 TODO #6:
-- Cambiar todos los GetXXX por Button pasandole props styles y children para ser mas reusable.
+- Implement Get Roadmap with a standard Button component
 
 TODO #7:
+- Develop complete JsonDev logo
+https://logomakr.com/
