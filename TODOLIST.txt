@@ -27,3 +27,6 @@ TODO #8:
 - Improve image loading time:
 Responsive images - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 Lazy loading - https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
+
+TODO #9:
+- Testimonial have to be arranged better so that cards are center when not showing less than 3 cards in a row.
