@@ -4,7 +4,7 @@ import { cv } from "../assets";
 
 const GetCV = () => {
   return (
-    <a href={cv} download="Jeison CV.pdf">
+    <a href={cv} download="CV">
       <div
         className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-secondary-gradient p-[2px] cursor-pointer`}
       >

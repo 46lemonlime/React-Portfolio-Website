@@ -1,5 +1,3 @@
-05.2023
-- Cambiar todos los GetXXX por Button pasandole props styles y children para ser mas reusable.
 
 04.2023
 - first website upload and deployment
@@ -8,3 +6,6 @@
 - Fixed deployment bug
 - Fix download CV not working on deployed site
 - Change cv.pfg document to hide personal details (personal phone + personal email) until I have a corporate one.
+- Cambiar todos los GetXXX por Button pasandole props styles y children para ser mas reusable.
+- Get domain, decide on supplier. corporate email?
+- Change website browser name and browser icon
