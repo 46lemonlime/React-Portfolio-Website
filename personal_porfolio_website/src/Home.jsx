@@ -14,7 +14,7 @@ import {
   Footer,
 } from "./components";
 
-const App = () => {
+const Home = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -44,4 +44,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;

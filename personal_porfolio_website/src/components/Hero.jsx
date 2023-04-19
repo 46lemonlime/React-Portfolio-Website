@@ -5,7 +5,7 @@ import GetCV from "./GetCV";
 const Hero = () => {
   return (
     <section
-      id="home"
+      id="hero"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
       <div
