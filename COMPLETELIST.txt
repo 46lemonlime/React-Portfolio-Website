@@ -9,3 +9,4 @@
 - Cambiar todos los GetXXX por Button pasandole props styles y children para ser mas reusable.
 - Get domain, decide on supplier. corporate email?
 - Change website browser name and browser icon
+- fixed contact navlink not taking you to contact section
