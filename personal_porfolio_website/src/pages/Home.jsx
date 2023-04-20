@@ -1,8 +1,7 @@
 import React from "react";
-import styles from "./style";
+import styles from "../style";
 
 import {
-  Navbar,
   Hero,
   Stats,
   About,
@@ -11,18 +10,11 @@ import {
   Testimonials,
   Clients,
   ReachMe,
-  Footer,
-} from "./components";
+} from "../components";
 
-const App = () => {
+const Home = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
-      </div>
-
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
@@ -37,11 +29,10 @@ const App = () => {
           <Testimonials />
           <Clients />
           <ReachMe />
-          <Footer />
         </div>
       </div>
     </div>
   );
 };
 
-export default App;
+export default Home;
