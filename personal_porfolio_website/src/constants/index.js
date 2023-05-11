@@ -119,23 +119,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.jsondev.uk/construction",
       },
     ],
   },
@@ -144,23 +144,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.jsondev.uk/construction",
       },
     ],
   },
@@ -169,11 +169,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "https://www.jsondev.uk/construction",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "https://www.jsondev.uk/construction",
       },
     ],
   },
@@ -203,22 +203,22 @@ export const socialMedia = [
   {
     id: "social-media-5",
     icon: hackthebox,
-    link: "https://www.linkedin.com/",
+    link: "https://www.hackthebox.com/",
   },
   {
     id: "social-media-6",
     icon: tryhackme,
-    link: "https://www.linkedin.com/",
+    link: "https://tryhackme.com/",
   },
   {
     id: "social-media-7",
     icon: github,
-    link: "https://www.linkedin.com/",
+    link: "https://github.com/",
   },
   {
     id: "social-media-8",
     icon: notionWhite,
-    link: "https://www.linkedin.com/",
+    link: "https://www.notion.so/",
   },
 ];
 

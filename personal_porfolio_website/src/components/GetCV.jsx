@@ -16,6 +16,7 @@ const GetCV = () => {
               <span className="text-gradient">CV</span>
             </p>
             <img
+              loading="lazy"
               src={arrowUp}
               alt="arrow"
               className="w-[23px] h-[23px] object-contain"
