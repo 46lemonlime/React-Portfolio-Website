@@ -4,29 +4,31 @@ TODO #1:
 - Implement features to the GetCV component so that the downloaded file has the last update date in it.
 
 TODO #2:
-- Implement secondary pages for: Projects,Services,Contact
-- check routing 
+- Implement Get Roadmap with a standard Button component
 
 TODO #3:
-- Implement hover effect on social media icons and navbar.
+- Implement hover effect on social media icons
 https://tailwindcss.com/docs/fill#setting-the-fill-color
 
 TODO #4:
-- Implement Get Roadmap with a standard Button component
-
-TODO #5:
-- Develop complete JsonDev logo
-https://logomakr.com/
-
-TODO #6:
 - Improve image loading time:
 Responsive images - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 Lazy loading - https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
 
-TODO #7:
+TODO #5:
 - Testimonial have to be arranged better so that cards are center when not showing less than 3 cards in a row.
 
-TODO #8:
+TODO #6:
 - Implement dark/light mode
 
+TODO #7:
+- complete content for non home pages
+
+TODO #8:
+- replace home images
+
 TODO #9:
+- fix navbar routing to frontpage but not directing to correct section id
+
+TODO #10
+- fix routing taking to bottom of the page

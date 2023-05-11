@@ -1,5 +1,12 @@
 
 04.2023
+- Implemented routing for multipage with react-router-dom
+- fixed some errors from the merge request
+- fixed footer bug
+- added Error page
+- added Work under construction page
+
+04.2023
 - first website upload and deployment
 - added tryhackme and hackthebox social icons,features.
 - fixed responsiveness bug with Stats.jsx
