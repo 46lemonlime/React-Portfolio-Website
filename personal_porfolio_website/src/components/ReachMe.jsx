@@ -1,5 +1,6 @@
 import Button from "./Button";
 import styles from "../style";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -15,7 +16,9 @@ const Contact = () => {
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-        <Button children={"Contact Me"} />
+        <Link to="/Construction">
+          <Button children={"Contact Me"} />
+        </Link>
       </div>
     </section>
   );

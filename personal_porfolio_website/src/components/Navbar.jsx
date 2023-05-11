@@ -19,7 +19,7 @@ const Navbar = () => {
               index === navLinks.length ? "mr-0" : "mr-10"
             }`}
           >
-            <a className="navLink" href={`#${nav.id}`}>
+            <a className="navLink" href={`/#${nav.id}`}>
               {nav.title}
             </a>
           </li>

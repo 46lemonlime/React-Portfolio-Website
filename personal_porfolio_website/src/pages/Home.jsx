@@ -14,7 +14,7 @@ import {
 
 const Home = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden">
+    <div>
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />

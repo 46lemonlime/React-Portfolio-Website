@@ -1,6 +1,7 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -15,7 +16,9 @@ const Services = () => {
           design, or expert customer service, my pricing is transparent and
           competitive. You will get the best possible value for your investment.
         </p>
-        <Button styles="mt-10" children={"Get Started"} />
+        <Link to="/Construction">
+          <Button styles="mt-10" children={"Get Started"} />
+        </Link>
       </div>
       <div className={layout.sectionImg}>
         <img src={card} alt="card" className="w-[100%] h-[100%]" />

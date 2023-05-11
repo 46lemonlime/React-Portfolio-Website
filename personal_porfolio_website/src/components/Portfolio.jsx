@@ -1,6 +1,7 @@
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -24,7 +25,9 @@ const Portfolio = () => {
           completed projects, showcasing my skills and expertise in various
           areas of interest.
         </p>
-        <Button styles={`mt-10`} children={"Get Projects"} />
+        <Link to="/Construction">
+          <Button styles={`mt-10`} children={"Get Projects"} />
+        </Link>
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <img
             src={apple}

@@ -6,6 +6,8 @@ import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import Projects from "../pages/Projects";
 import Services from "../pages/Services";
+import Construction from "../pages/Construction";
+import Error from "../pages/Error";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/services" element={<Services />} />
+          <Route exact path="/construction" element={<Construction />} />
+          <Route exact path="/*" element={<Error />} />
         </Routes>
       </Layout>
     </BrowserRouter>
