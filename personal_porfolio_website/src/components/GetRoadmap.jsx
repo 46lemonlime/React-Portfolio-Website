@@ -12,7 +12,6 @@ const GetRoadmap = ({ styles }) => (
   >
     Get Roadmap
     <img
-      loading="lazy"
       src={notionBlack}
       alt="notionBlack"
       className="w-[28px] h-[28px] object-contain ml-2"
