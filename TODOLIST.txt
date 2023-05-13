@@ -25,10 +25,13 @@ TODO #7:
 - complete content for non home pages
 
 TODO #8:
-- replace home images
+- replace template images for custom
 
 TODO #9:
 - fix navbar routing to frontpage but not directing to correct section id
 
 TODO #10
 - fix routing taking to bottom of the page
+
+TODO #11
+- Footer links to WIP or other pages.

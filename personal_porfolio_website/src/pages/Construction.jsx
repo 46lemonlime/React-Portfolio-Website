@@ -36,6 +36,7 @@ const Construction = () => {
             className={`flex-1 flex ${styles.flexCenter} ${styles.padding} md:my-0 my-10 relative`}
           >
             <img
+              loading="lazy"
               src={WIP}
               alt="WIP"
               className="w-[100%] h-[100%] relative z-[5]"

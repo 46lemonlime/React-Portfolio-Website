@@ -12,6 +12,7 @@ const Footer = () => (
           <div className="flex-[1] flex flex-col justify-start mr-10">
             <Link to="/">
               <img
+                loading="lazy"
                 src={logo}
                 alt="hoobank"
                 className="w-[266px] h-[72.14px] object-contain"
@@ -57,6 +58,7 @@ const Footer = () => (
           <div className="flex flex-row md:mt-0 mt-6">
             {socialMedia.map((social, index) => (
               <img
+                loading="lazy"
                 key={social.id}
                 src={social.icon}
                 alt={social.id}
