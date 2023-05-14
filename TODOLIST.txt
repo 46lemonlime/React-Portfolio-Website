@@ -34,4 +34,4 @@ TODO #10
 - fix routing taking to bottom of the page
 
 TODO #11
-- Footer links to WIP or other pages.
+- fix navbar open/close button for mobile devices
