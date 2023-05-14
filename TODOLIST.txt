@@ -31,7 +31,7 @@ TODO #9:
 - fix navbar routing to frontpage but not directing to correct section id
 
 TODO #10
-- fix routing taking to bottom of the page
+- fix routing taking to bottom of the page then scrolling to the top
 
 TODO #11
 - fix navbar open/close button for mobile devices
