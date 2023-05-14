@@ -1,10 +1,11 @@
 
 05.2023
 - Implemented routing for multipage with react-router-dom
-- fixed some errors from the merge request
+- fixed errors from server due to react-router-dom implementation
 - fixed footer bug
 - added Error page
 - added Work under construction page
+- content update
 
 04.2023
 - first website upload and deployment

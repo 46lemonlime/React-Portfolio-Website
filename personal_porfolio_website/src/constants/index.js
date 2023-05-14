@@ -50,21 +50,21 @@ export const features = [
     icon: star,
     title: "Skills",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, dolor?",
+      "Stack: HTML, CSS, Javascript, React, Tailwind, C, SQL, Python, VBA",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Education & Experience",
     content:
-      "Ratione iste praesentium saepe, quae eaque ad nihil et laudantium.",
+      "Customer Service Specialist Apprenticeship - Paragon Skills, CS50 - Harvard Open Courses",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Current Setup",
     content:
-      "Minima vero voluptatem architecto animi veritatis! Ullam numquam quibusdam odit?",
+      "Dual Monitors: Samsung U32R590, BenQ PD2500Q, RAM: 16GB, CPU: Intel Core i3",
   },
 ];
 

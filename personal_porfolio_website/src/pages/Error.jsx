@@ -1,6 +1,6 @@
 import React from "react";
 import styles, { layout } from "../style";
-import { WIP } from "../assets";
+import { error_img } from "../assets";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 
@@ -17,11 +17,11 @@ const Error = () => {
               404 Not Found!
             </h1>
             <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
-              Oops! We couldn't find that page.
+              IT LOOKS LIKE THE PAGE YOU'RE LOOKING FOR DOESN'T EXIST OR HAS
+              BEEN MOVED.
             </p>
             <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
-              It looks like the page you're looking for doesn't exist or has
-              been moved.
+              Oops! We couldn't find that page.
             </h4>
             <p className={`${styles.paragraph} max-w-[470px] mb-10`}>
               We're sorry for the inconvenience. If you continue to experience
@@ -45,8 +45,8 @@ const Error = () => {
           >
             <img
               loading="lazy"
-              src={WIP}
-              alt="WIP"
+              src={error_img}
+              alt="404 error"
               className="w-[100%] h-[100%] relative z-[5]"
             />
           </div>
