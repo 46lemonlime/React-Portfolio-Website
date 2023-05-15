@@ -28,9 +28,10 @@ TODO #8:
 - replace template images for custom
 
 TODO #9:
-- fix navbar open/close button for mobile devices
+- fix navbar routing to frontpage but not directing to correct section id
 
 TODO #10
+- fix routing taking to bottom of the page then scrolling to the top
 
 TODO #11
-
+- fix navbar open/close button for mobile devices
