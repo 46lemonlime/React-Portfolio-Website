@@ -2,6 +2,7 @@ import {
   people01,
   people02,
   people03,
+  user,
   facebook,
   instagram,
   linkedin,
@@ -73,25 +74,25 @@ export const feedback = [
     id: "feedback-1",
     content:
       "I cannot recommend this service highly enough - consistently exceeded my expectations and provided exceptional value.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    name: "Elisabetta Gottardi",
+    title: "Customer Contact Manager - Booking.com",
+    img: user,
   },
   {
     id: "feedback-2",
     content:
       "From start to finish, working with Jeison was a seamless and enjoyable experience. He is a true professional and a pleasure to work with.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    name: "William Powell",
+    title: "Operations Manager - Armathwaite Hall",
+    img: user,
   },
   {
     id: "feedback-3",
     content:
       "I was blown away by the level of expertise and dedication that JsonDev brought to our project. He truly cares about his clients and it shows in his work.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    name: "Chris Norcup",
+    title: "HR Director - Phillips & Cohen Associates",
+    img: user,
   },
 ];
 

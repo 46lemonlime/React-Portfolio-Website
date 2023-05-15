@@ -1,4 +1,4 @@
-import { card } from "../assets";
+import { bill } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ const Services = () => {
         </Link>
       </div>
       <div className={layout.sectionImg}>
-        <img src={card} alt="card" className="w-[100%] h-[100%]" />
+        <img src={bill} alt="bill" className="w-[100%] h-[100%]" />
         <div className="absolute z-[3] -right-1/4 top-0 w-[60%] h-[60%] rounded-full white__gradient" />
         <div className="absolute z-[0] -right-1/4 bottom-0 w-[50%] h-[50%] rounded-full blue__gradient" />
       </div>
