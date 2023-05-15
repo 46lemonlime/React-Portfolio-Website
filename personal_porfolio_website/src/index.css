@@ -14,10 +14,6 @@
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
-* {
-  scroll-behavior: smooth;
-}
-
 .navLink::after {
   content: "";
   width: 0%;
@@ -143,11 +139,12 @@
 }
 
 .feedback-card {
-  background: transparent;
+  background: var(--black-gradient);
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: transparent;
+  transform: translateY(10px);
 }
 
 .blue__gradient {
