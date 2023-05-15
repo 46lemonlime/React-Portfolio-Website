@@ -7,10 +7,6 @@
 - added Work under construction page
 - content update
 - fix routing taking to bottom of the page
-- fixed maping of footer links
-- updated testimonials photo for default user image
-- fixed smooth scrolling bad UX when changing page
-- fixed bug on navbar hover effect
 
 04.2023
 - first website upload and deployment
