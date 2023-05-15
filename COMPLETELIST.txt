@@ -10,6 +10,7 @@
 - fixed maping of footer links
 - updated testimonials photo for default user image
 - fixed smooth scrolling bad UX when changing page
+- fixed bug on navbar hover effect
 
 04.2023
 - first website upload and deployment
