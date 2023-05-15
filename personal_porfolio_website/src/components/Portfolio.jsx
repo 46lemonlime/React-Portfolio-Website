@@ -1,4 +1,4 @@
-import { apple, bill, card, google } from "../assets";
+import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 import { Link } from "react-router-dom";
@@ -8,7 +8,7 @@ const Portfolio = () => {
     <section id="portfolio" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
         <img
-          src={card}
+          src={bill}
           alt="Portfolio"
           className="w-[100%] h-[100%] relative z-[5]"
         />
