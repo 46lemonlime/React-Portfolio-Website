@@ -12,11 +12,30 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+
+  --bg-secondary-gradient: linear-gradient(
+    157.81deg,
+    #ffa6a9 -43.27%,
+    #ffbbbc -21.24%,
+    #ff9b9f 12.19%,
+    #ff7983 29.82%,
+    #ff5269 51.94%,
+    #ff004f 100%
+      /*     #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29% */
+  );
 }
 
-* {
+// Disabled to test for scrolling restoration behaviour
+/* 
+//* {
   scroll-behavior: smooth;
 }
+*/
 
 .navLink::after {
   content: "";
@@ -55,21 +74,7 @@
 }
 
 .bg-secondary-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #ffa6a9 -43.27%,
-    #ffbbbc -21.24%,
-    #ff9b9f 12.19%,
-    #ff7983 29.82%,
-    #ff5269 51.94%,
-    #ff004f 100%
-      /*     #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29% */
-  );
+  background: var(--bg-secondary-gradient);
 }
 
 .bg-black-gradient {
@@ -143,11 +148,13 @@
 }
 
 .feedback-card {
-  background: transparent;
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: transparent;
+  transform: translateY(10px);
 }
 
 .blue__gradient {
@@ -176,4 +183,5 @@
 
 .social-media-icon:hover {
   fill: #ff004f;
+  transform: translateY(10px);
 }
