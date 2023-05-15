@@ -139,11 +139,12 @@
 }
 
 .feedback-card {
-  background: transparent;
+  background: var(--black-gradient);
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  background: transparent;
+  transform: translateY(10px);
 }
 
 .blue__gradient {
@@ -172,4 +173,5 @@
 
 .social-media-icon:hover {
   fill: #ff004f;
+  transform: translateY(10px);
 }
