@@ -2,6 +2,7 @@ import {
   people01,
   people02,
   people03,
+  default_user,
   facebook,
   instagram,
   linkedin,
@@ -50,7 +51,7 @@ export const features = [
     icon: star,
     title: "Skills",
     content:
-      "Stack: HTML, CSS, Javascript, React, Tailwind, C, SQL, Python, VBA",
+      "Tech Stack: HTML, CSS, Javascript, React, Tailwind, C, SQL, Python, VBA",
   },
   {
     id: "feature-2",
@@ -73,25 +74,25 @@ export const feedback = [
     id: "feedback-1",
     content:
       "I cannot recommend this service highly enough - consistently exceeded my expectations and provided exceptional value.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    name: "Elisabetta Gottardi",
+    title: "Customer Contact Manager - Booking.com",
+    img: default_user,
   },
   {
     id: "feedback-2",
     content:
       "From start to finish, working with Jeison was a seamless and enjoyable experience. He is a true professional and a pleasure to work with.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    name: "William Powell",
+    title: "Operations Manager - Armathwaite Hall",
+    img: default_user,
   },
   {
     id: "feedback-3",
     content:
-      "I was blown away by the level of expertise and dedication that JsonDev brought to our project. He truly cares about his clients and it shows in his work.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "I was blown away by the level of expertise and dedication that brought to our team. He truly cares about his clients and it shows in his work.",
+    name: "Chris Norcup",
+    title: "HR Director - Phillips & Cohen Associates",
+    img: default_user,
   },
 ];
 
@@ -119,23 +120,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "How it Works",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "Create",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "Explore",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "Terms & Services",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
     ],
   },
@@ -144,23 +145,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "Partners",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "Suggestions",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "Blog",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "Newsletters",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
     ],
   },
@@ -169,11 +170,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
       {
         name: "Become a Partner",
-        link: "https://www.jsondev.uk/construction",
+        link: "/Construction",
       },
     ],
   },

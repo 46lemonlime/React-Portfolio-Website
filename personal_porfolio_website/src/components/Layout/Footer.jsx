@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "../../style";
 import { logo } from "../../assets";
 import { footerLinks, socialMedia } from "../../constants";
+import { Children } from "react";
 
 const Footer = () => (
   <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
@@ -41,7 +42,7 @@ const Footer = () => (
                         index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                       }`}
                     >
-                      {link.name}
+                      <Link to={link.link}>{link.name}</Link>
                     </li>
                   ))}
                 </ul>
