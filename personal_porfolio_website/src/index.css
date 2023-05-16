@@ -143,7 +143,14 @@
 }
 
 .feedback-card:hover {
-  background: transparent;
+  transform: translateY(10px);
+}
+
+.project-card {
+  background: var(--black-gradient);
+}
+
+.project-card:hover {
   transform: translateY(10px);
 }
 

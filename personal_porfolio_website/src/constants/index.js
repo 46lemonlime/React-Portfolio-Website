@@ -73,7 +73,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "I cannot recommend this service highly enough - consistently exceeded my expectations and provided exceptional value.",
+      "I cannot recommend his services highly enough - consistently exceeded my expectations and provided exceptional value.",
     name: "Elisabetta Gottardi",
     title: "Customer Contact Manager - Booking.com",
     img: user,
@@ -92,6 +92,33 @@ export const feedback = [
       "I was blown away by the level of expertise and dedication that JsonDev brought to our project. He truly cares about his clients and it shows in his work.",
     name: "Chris Norcup",
     title: "HR Director - Phillips & Cohen Associates",
+    img: user,
+  },
+];
+
+export const projects = [
+  {
+    id: "project-1",
+    content:
+      "Desktop application designed to empower customer service agents during calls. Developed using VBA, helps agents deliver outstanding service and exceeding KPIs.",
+    name: "Call Progress Tracker",
+    title: "VBA",
+    img: user,
+  },
+  {
+    id: "project-2",
+    content:
+      "Desktop application designed to provide poker players accurate adherence and optimal study with their customized poker strategy.",
+    name: "Poker Strat Display",
+    title: "VBA",
+    img: user,
+  },
+  {
+    id: "project-3",
+    content:
+      "Dynamic website used as a platform to introduce myself, display my work, and highlight my expertise, skills and achievements in various fields.",
+    name: "Portfolio Website",
+    title: "HTML, CSS, Javascript, React, Tailwind, Vite",
     img: user,
   },
 ];
