@@ -16,7 +16,7 @@ const Services = () => {
           design, or expert customer service, my pricing is transparent and
           competitive. You will get the best possible value for your investment.
         </p>
-        <Link to="/Construction">
+        <Link to="/Services">
           <Button styles="mt-10" children={"Get Started"} />
         </Link>
       </div>

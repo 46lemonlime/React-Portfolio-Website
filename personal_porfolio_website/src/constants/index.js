@@ -123,6 +123,57 @@ export const projects = [
   },
 ];
 
+export const services = [
+  {
+    id: "service-1",
+    content:
+      "Engaging portfolio websites that highlight your work. Get consultation on showcasing your projects effectively.",
+    name: "Project Showcasing and Consultation",
+    title: "SPA & Multipage react websites",
+    img: user,
+  },
+  {
+    id: "service-2",
+    content:
+      "Custom websites and web applications to fit your business needs. Responsive layouts and advanced functionalities.",
+    name: "Web Development and Custom Solutions",
+    title: "Tailored Websites and Web Apps",
+    img: user,
+  },
+  {
+    id: "service-3",
+    content:
+      "Enhanced user experience through intuitive interfaces. Wireframing, prototyping, and pixel-perfect designs to bring ideas to life.",
+    name: "UI/UX Design and Prototyping",
+    title: "Intuitive Interfaces and Pixel-Perfect Designs",
+    img: user,
+  },
+  {
+    id: "service-4",
+    content:
+      "Strategic digital marketing solutions to increase brand visibility, drive targeted traffic, and achieve your business objectives.",
+    name: "Digital Marketing Strategies and Optimization",
+    title: "Boost Online Presence and Targeted Traffic",
+    img: user,
+  },
+  {
+    id: "service-5",
+    content:
+      "Deliver exceptional customer service experiences in both Spanish and English languages. Bridge the communication gap and provide top-notch support.",
+    name: "Customer Service in Spanish and English",
+    title: "Seamless Support in Multiple Languages",
+    img: user,
+  },
+  {
+    id: "service-6",
+    content:
+      "Personalized coaching for stakes ranging from 2NL to 25NL. Receive expert guidance to improve your strategy and maximize your profits.",
+    name: "Poker Coaching for Cashgames from 2NL to 25NL",
+    title: "Elevate Your Poker Game",
+    img: user,
+  },
+];
+
 export const stats = [
   {
     id: "stats-1",
@@ -241,7 +292,7 @@ export const socialMedia = [
   {
     id: "social-media-7",
     icon: github,
-    link: "https://github.com/",
+    link: "https://github.com/46lemonlime",
   },
   {
     id: "social-media-8",
