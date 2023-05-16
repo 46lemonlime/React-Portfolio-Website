@@ -31,6 +31,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import user from "./user.svg";
+import project00 from "./project00.svg";
 import WIP from "./WIP.svg";
 import error_img from "./404.svg";
 
@@ -68,6 +69,7 @@ export {
   people02,
   people03,
   user,
+  project00,
   WIP,
   error_img,
 };

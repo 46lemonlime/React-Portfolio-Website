@@ -25,7 +25,7 @@ const Portfolio = () => {
           completed projects, showcasing my skills and expertise in various
           areas of interest.
         </p>
-        <Link to="/Construction">
+        <Link to="/Projects">
           <Button styles={`mt-10`} children={"Get Projects"} />
         </Link>
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

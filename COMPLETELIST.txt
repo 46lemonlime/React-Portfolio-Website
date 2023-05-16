@@ -6,7 +6,9 @@
 - added Error page
 - added Work under construction page
 - content update
-- fix routing taking to bottom of the page
+- fixed routing taking to bottom of the page
+- fixed smooth scrolling when switching page
+- added Projects page
 
 04.2023
 - first website upload and deployment
