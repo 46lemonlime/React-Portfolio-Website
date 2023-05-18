@@ -30,7 +30,6 @@ TODO #8:
 TODO #9:
 Responsiveness:
 - fix navbar open/close button for mobile devices
-- fix second pages horizontal scrolling white space
 
 TODO #10
 

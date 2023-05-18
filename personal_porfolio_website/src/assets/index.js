@@ -11,6 +11,9 @@ import me from "./me.jpg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
+import rubik from "./rubik.svg";
+import books from "./books.svg";
+import setup from "./setup.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -50,6 +53,9 @@ export {
   send,
   shield,
   star,
+  rubik,
+  books,
+  setup,
   menu,
   close,
   google,
