@@ -12,7 +12,7 @@ const Error = () => {
           className={`flex md:flex-row flex-col ${styles.paddingY} ${layout.sectionReverse} sm:mt-40`}
         >
           <div>
-            <div className="absolute z-[0] w-[40%] h-[40%] -right-40 top-1/2 rounded-full red__gradient" />
+            <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
             <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
               404 Not Found!
             </h1>

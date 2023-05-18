@@ -19,6 +19,9 @@ import {
   github,
   notionBlack,
   notionWhite,
+  rubik,
+  books,
+  setup,
 } from "../assets";
 
 export const navLinks = [
@@ -48,21 +51,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: rubik,
     title: "Skills",
     content:
       "Stack: HTML, CSS, Javascript, React, Tailwind, C, SQL, Python, VBA",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: books,
     title: "Education & Experience",
     content:
       "Customer Service Specialist Apprenticeship - Paragon Skills, CS50 - Harvard Open Courses",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: setup,
     title: "Current Setup",
     content:
       "Dual Monitors: Samsung U32R590, BenQ PD2500Q, RAM: 16GB, CPU: Intel Core i3",
