@@ -1,21 +1,19 @@
-import Navbar from "./Navbar";
-import Portfolio from "./Portfolio";
-import Products from "./Products";
-import About from "./About";
+import HomeHero from "./HomeHero";
+import Stats from "./Stats";
+import HomeAbout from "./HomeAbout";
+import HomeProjects from "./HomeProjects";
+import HomeServices from "./HomeServices";
+import Testimonials from "./Testimonials";
 import Clients from "./Clients";
 import ReachMe from "./ReachMe";
-import Stats from "./Stats";
-import Testimonials from "./Testimonials";
-import Hero from "./Hero";
 
 export {
-  Navbar,
-  Portfolio,
-  Products,
-  About,
+  HomeHero,
+  Stats,
+  HomeAbout,
+  HomeProjects,
+  HomeServices,
+  Testimonials,
   Clients,
   ReachMe,
-  Stats,
-  Testimonials,
-  Hero,
 };

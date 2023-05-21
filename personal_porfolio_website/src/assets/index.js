@@ -6,7 +6,6 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logoSmall.png";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import me from "./me.jpg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -48,7 +47,6 @@ export {
   dropbox,
   logo,
   quotes,
-  robot,
   me,
   send,
   shield,

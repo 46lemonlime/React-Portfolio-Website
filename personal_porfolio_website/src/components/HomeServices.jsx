@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 
-const Services = () => {
+const HomeServices = () => {
   return (
     <section id="services" className={layout.section}>
       <div className={layout.sectionInfo}>
@@ -29,4 +29,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default HomeServices;

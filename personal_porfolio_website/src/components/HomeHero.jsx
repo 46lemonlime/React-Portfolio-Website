@@ -1,8 +1,8 @@
 import styles from "../style";
-import { discount, robot, me } from "../assets";
+import { discount, me } from "../assets";
 import GetCV from "./GetCV";
 
-const Hero = () => {
+const HomeHero = () => {
   return (
     <section
       id="hero"
@@ -64,4 +64,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HomeHero;
