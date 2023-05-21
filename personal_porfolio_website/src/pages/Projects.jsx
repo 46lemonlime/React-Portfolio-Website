@@ -45,11 +45,13 @@ const Projects = () => {
             />
           </div>
         </section>
-        <div className="flex flex-wrap sm:justify-start justify-center relative z-[1]">
-          {projects.map((card) => (
-            <ProjectCard key={card.id} {...card} />
-          ))}
-        </div>
+        <section className={` ${styles.paddingY}`}>
+          <div className="flex flex-wrap sm:justify-start justify-center relative z-[1]">
+            {projects.map((card) => (
+              <ProjectCard key={card.id} {...card} />
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   );

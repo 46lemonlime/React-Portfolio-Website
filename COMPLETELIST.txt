@@ -11,6 +11,8 @@
 - added Projects page
 - added customed icons for about features
 - fixed horizontal scrolling bug in multiple pages
+- added social media correct links
+- added correct y spacing from footer on sec pages.
 
 04.2023
 - first website upload and deployment
