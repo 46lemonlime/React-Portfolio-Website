@@ -16,7 +16,7 @@ const Contact = () => {
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-        <Link to="/Construction">
+        <Link to="/Contact">
           <Button children={"Contact Me"} />
         </Link>
       </div>

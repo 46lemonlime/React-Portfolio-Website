@@ -1,6 +1,11 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import GetRoadmap from "./GetRoadmap";
+import GetCV from "./GetCV";
+import { card } from "../assets";
+import Button from "./Button";
+import { Link } from "react-router-dom";
+import { aboutme } from "../assets";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
@@ -31,26 +36,62 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const About = () => {
   return (
-    <section id="about" className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
-          My journey, <br className="sm:block hidden" /> progress and
-          documentation.
-        </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Please find a link to my roadmap in Computer Science. Here you will
-          find a notion document with courses, tutorials and certifications I
-          have completed, as well as my current work in progress.
-        </p>
+    <section>
+      <div className={layout.sectionReverse}>
+        <div className={layout.sectionInfo}>
+          <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
+            About Me
+          </h1>
+          <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
+            WELCOME TO MY ABOUT PAGE!
+          </p>
+          <div className="flex flex-row justify-between items-center w-full">
+            <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+              In this section, I invite you to explore my story, the passions,
+              and experiences that have shaped me into the person I am today.
+              Here you will get to know more about me and my journey as a
+              professional in various domains.
+            </p>
+            <div className="ss:flex hidden md:mx-10 mr-0">
+              <GetCV />
+            </div>
+          </div>
 
-        <GetRoadmap styles={`mt-10`} />
+          <Link to="/">
+            <Button styles={`mt-10`} children={"Back Home"} />
+          </Link>
+        </div>
+        <div className={layout.sectionImgReverse}>
+          <img
+            src={aboutme}
+            alt="card"
+            className="w-[100%] h-[100%] relative z-[5]"
+          />
+        </div>
       </div>
-
-      <div className={`${layout.sectionImg} flex-col `}>
-        {features.map((feature, index) => (
-          <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
+      <div className={`ss:hidden ${styles.flexCenter} ${styles.paddingY}`}>
+        <GetCV />
       </div>
+      <section className={layout.sectionReverse}>
+        <div className="absolute z-[0] w-[40%] h-[40%] left-20 top-4/5 rounded-full red__gradient" />
+        <div className={`${layout.sectionImgReverse} flex-col `}>
+          {features.map((feature, index) => (
+            <FeatureCard key={feature.id} {...feature} index={index} />
+          ))}
+        </div>
+        <div className={layout.sectionInfo}>
+          <h2 className={styles.heading2}>
+            My journey, <br className="sm:block hidden" /> progress and
+            documentation.
+          </h2>
+          <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+            Please find a link to my roadmap in Computer Science. Here you will
+            find a notion document with courses, tutorials and certifications I
+            have completed, as well as my current work in progress.
+          </p>
+          <GetRoadmap styles={`mt-10`} />
+        </div>
+      </section>
     </section>
   );
 };

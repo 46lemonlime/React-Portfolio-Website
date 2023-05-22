@@ -26,24 +26,24 @@ import {
 
 export const navLinks = [
   {
-    id: "hero",
+    link: "/",
     title: "Home",
   },
   {
-    id: "about",
+    link: "/aboutme",
     title: "About",
   },
   {
-    id: "portfolio",
+    link: "/projects",
     title: "Portfolio",
   },
   {
-    id: "services",
+    link: "/services",
     title: "Services",
   },
 
   {
-    id: "contact",
+    link: "/contact",
     title: "Contact",
   },
 ];
@@ -301,6 +301,11 @@ export const socialMedia = [
     id: "social-media-8",
     icon: notionWhite,
     link: "https://www.notion.so/",
+  },
+  {
+    id: "social-media-9",
+    icon: notionWhite,
+    link: "https://www.ko-fi.com/jsondev/",
   },
 ];
 

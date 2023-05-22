@@ -37,6 +37,7 @@ import project00 from "./project00.svg";
 import service00 from "./services-icon.svg";
 import WIP from "./WIP.svg";
 import error_img from "./404.svg";
+import aboutme from "./aboutme.svg";
 
 export {
   airbnb,
@@ -78,4 +79,5 @@ export {
   service00,
   WIP,
   error_img,
+  aboutme,
 };
