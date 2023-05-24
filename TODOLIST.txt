@@ -28,8 +28,7 @@ TODO #8:
 - replace template images for custom
 
 TODO #9:
-Responsiveness:
-- fix navbar open/close button for mobile devices
+- make components more reusable
 
 TODO #10
 

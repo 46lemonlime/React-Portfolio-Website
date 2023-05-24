@@ -11,6 +11,13 @@
 - added Projects page
 - added customed icons for about features
 - fixed horizontal scrolling bug in multiple pages
+- added social media correct links
+- added correct y spacing from footer on sec pages.
+- reorganised home content to other pages.
+- fixed main nav links
+- fixed mobile nav menu z-index
+- added content: aboutme page and contact page
+- added react-type-animation
 
 04.2023
 - first website upload and deployment

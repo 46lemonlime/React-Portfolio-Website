@@ -6,7 +6,6 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logoSmall.png";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import me from "./me.jpg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -38,6 +37,7 @@ import project00 from "./project00.svg";
 import service00 from "./services-icon.svg";
 import WIP from "./WIP.svg";
 import error_img from "./404.svg";
+import aboutme from "./aboutme.svg";
 
 export {
   airbnb,
@@ -48,7 +48,6 @@ export {
   dropbox,
   logo,
   quotes,
-  robot,
   me,
   send,
   shield,
@@ -80,4 +79,5 @@ export {
   service00,
   WIP,
   error_img,
+  aboutme,
 };

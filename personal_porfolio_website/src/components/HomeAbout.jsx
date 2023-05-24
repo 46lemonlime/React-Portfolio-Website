@@ -16,9 +16,11 @@ const Services = () => {
         >
           <div>
             <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
-            <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
-              Services
-            </h1>
+            <div>
+              <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
+                Services
+              </h1>
+            </div>
             <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
               WELCOME TO MY SERVICES PAGE!
             </p>
