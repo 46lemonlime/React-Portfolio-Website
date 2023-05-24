@@ -17,6 +17,7 @@
 - fixed main nav links
 - fixed mobile nav menu z-index
 - added content: aboutme page and contact page
+- added react-type-animation
 
 04.2023
 - first website upload and deployment

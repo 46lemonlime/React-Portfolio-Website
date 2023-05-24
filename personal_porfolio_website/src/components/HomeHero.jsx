@@ -3,13 +3,15 @@ import { discount, me } from "../assets";
 import Button from "../components/Button";
 import { Link } from "react-router-dom";
 import Stats from "./Stats";
+import { TypeAnimation } from "react-type-animation";
+import GetCV from "./GetCV";
 
 const HomeHero = () => {
   return (
     <div>
       <section
         id="hero"
-        className={`flex md:flex-row flex-col ${styles.paddingY} ${layout.sectionReverse}`}
+        className={`flex md:flex-row flex-col ${styles.paddingY} ${layout.section}`}
       >
         <div
           className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}
@@ -27,11 +29,30 @@ const HomeHero = () => {
               Jeison <br className="sm:block hidden" />{" "}
               <span className="text-gradient">Porfirio</span>{" "}
             </h1>
+            <div className="ss:flex hidden md:mr-4 mr-0">
+              <GetCV />
+            </div>
           </div>
 
           <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
             Plaza Sanchez
           </h1>
+          <TypeAnimation
+            sequence={[
+              "Software Developer",
+              2000,
+              "Poker Player",
+              2000,
+              "Customer Service Agent",
+              2000,
+              "Poker Coach",
+              2000,
+            ]}
+            speed={50}
+            className="font-poppins font-semibold text-[18px] leading-[32px] text-secondary"
+            wrapper="div"
+            repeat={Infinity}
+          />
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Hi, I'm Jeison Sanchez, 👋
             <br />
@@ -55,10 +76,12 @@ const HomeHero = () => {
           />
 
           {/* gradient start */}
-          <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-          <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-          <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+          <div className="absolute z-[0] w-[40%] h-[35%] top-1/2 pink__gradient" />
+          <div className="absolute z-[0] w-[50%] h-[50%] top-1/2 red__gradient" />
           {/* gradient end */}
+        </div>
+        <div className={`ss:hidden ${styles.flexCenter}`}>
+          <GetCV />
         </div>
       </section>
       <Stats />

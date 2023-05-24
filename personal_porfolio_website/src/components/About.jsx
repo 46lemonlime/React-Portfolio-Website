@@ -1,7 +1,6 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import GetRoadmap from "./GetRoadmap";
-import GetCV from "./GetCV";
 import { card } from "../assets";
 import Button from "./Button";
 import { Link } from "react-router-dom";
@@ -39,6 +38,7 @@ const About = () => {
     <section>
       <div className={layout.sectionReverse}>
         <div className={layout.sectionInfo}>
+          <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
           <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
             About Me
           </h1>
@@ -52,9 +52,6 @@ const About = () => {
               Here you will get to know more about me and my journey as a
               professional in various domains.
             </p>
-            <div className="ss:flex hidden md:mx-10 mr-0">
-              <GetCV />
-            </div>
           </div>
 
           <Link to="/">
@@ -69,11 +66,8 @@ const About = () => {
           />
         </div>
       </div>
-      <div className={`ss:hidden ${styles.flexCenter} ${styles.paddingY}`}>
-        <GetCV />
-      </div>
       <section className={layout.sectionReverse}>
-        <div className="absolute z-[0] w-[40%] h-[40%] left-20 top-4/5 rounded-full red__gradient" />
+        <div className="absolute z-[0] w-[40%] h-[40%] left-20 top-2/2 rounded-full blue__gradient opacity-60" />
         <div className={`${layout.sectionImgReverse} flex-col `}>
           {features.map((feature, index) => (
             <FeatureCard key={feature.id} {...feature} index={index} />
