@@ -28,6 +28,7 @@ import notionWhite from "./notionWhite.svg";
 import hackthebox from "./hackthebox.svg";
 import tryhackme from "./tryhackme.svg";
 import github from "./github.svg";
+import kofi from "./ko-fi.svg";
 import cv from "./cv.pdf";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
@@ -70,6 +71,7 @@ export {
   hackthebox,
   tryhackme,
   github,
+  kofi,
   cv,
   people01,
   people02,
