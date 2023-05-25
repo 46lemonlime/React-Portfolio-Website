@@ -17,6 +17,7 @@ import {
   hackthebox,
   tryhackme,
   github,
+  kofi,
   notionBlack,
   notionWhite,
   rubik,
@@ -304,7 +305,7 @@ export const socialMedia = [
   },
   {
     id: "social-media-9",
-    icon: notionWhite,
+    icon: kofi,
     link: "https://www.ko-fi.com/jsondev/",
   },
 ];

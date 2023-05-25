@@ -16,7 +16,7 @@ const HomeHero = () => {
         <div
           className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 `}
         >
-          <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+          <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 opacity-100">
             <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
             <p className={`${styles.paragraph} ml-2`}>
               Currently <span className="text-white">Open</span> for{" "}
@@ -40,21 +40,21 @@ const HomeHero = () => {
           <TypeAnimation
             sequence={[
               "Software Developer",
-              2000,
+              2500,
               "Poker Player",
-              2000,
+              2500,
               "Customer Service Agent",
-              2000,
+              2500,
               "Poker Coach",
-              2000,
+              2500,
             ]}
             speed={50}
-            className="font-poppins font-semibold text-[18px] leading-[32px] text-secondary"
+            className="font-poppins font-semibold text-[18px] leading-[32px] bg-secondary-gradient rounded-[10px] px-[10px]"
             wrapper="div"
             repeat={Infinity}
           />
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Hi, I'm Jeison Sanchez, 👋
+            Hi, I'm Jeison Sanchez, <span className="text-white">👋</span>
             <br />
             Passionated about technology and computer science. I love optimising
             systems, solving problems and creating applications. Welcome to my
