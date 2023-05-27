@@ -72,7 +72,7 @@ const Hero = () => {
             website!
           </p>
 
-          <Link to="/AboutMe">
+          <Link to="/About">
             <Button children={"About Me"} styles={`mt-10`} />
           </Link>
         </div>

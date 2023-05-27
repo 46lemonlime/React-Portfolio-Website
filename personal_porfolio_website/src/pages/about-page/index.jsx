@@ -11,7 +11,7 @@ const About = () => {
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <section
-          className={`flex md:flex-row flex-col ${styles.paddingY} ${layout.sectionReverse} sm:mt-40`}
+          className={`flex md:flex-row flex-col ${styles.paddingY} ${layout.sectionReverse} `}
         >
           <AboutIntro />
         </section>
