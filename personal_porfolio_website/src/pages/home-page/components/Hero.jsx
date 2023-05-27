@@ -1,12 +1,23 @@
-import styles, { layout } from "../style";
-import { discount, me } from "../assets";
-import Button from "../components/Button";
-import { Link } from "react-router-dom";
-import Stats from "./Stats";
-import { TypeAnimation } from "react-type-animation";
-import GetCV from "./GetCV";
+// import style
+import styles, { layout } from "../../../style";
 
-const HomeHero = () => {
+// import routing
+import { Link } from "react-router-dom";
+
+// import animations
+import { TypeAnimation } from "react-type-animation";
+
+// import images
+import { discount, me } from "../../../assets";
+
+// import global components
+import Button from "../../../components/Button";
+
+// import specific components
+import Stats from "../../../components/Stats";
+import GetCV from "../../../components/GetCV";
+
+const Hero = () => {
   return (
     <div>
       <section
@@ -61,7 +72,7 @@ const HomeHero = () => {
             website!
           </p>
 
-          <Link to="/AboutMe">
+          <Link to="/About">
             <Button children={"About Me"} styles={`mt-10`} />
           </Link>
         </div>
@@ -89,4 +100,4 @@ const HomeHero = () => {
   );
 };
 
-export default HomeHero;
+export default Hero;

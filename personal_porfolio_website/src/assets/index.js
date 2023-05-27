@@ -5,7 +5,6 @@ import binance from "./images/binance.png";
 import card from "./images/card.png";
 import coinbase from "./images/coinbase.png";
 import dropbox from "./images/dropbox.png";
-import logo from "./images/logoSmall.png";
 import me from "./images/me.jpg";
 import people01 from "./images/people01.png";
 import people02 from "./images/people02.png";
@@ -45,6 +44,10 @@ import chat from "./icons/chat_bubble.svg";
 import calltracker from "./icons/call_progress_tracker.svg";
 import pokerdisplay from "./icons/poker_strat_display.svg";
 import portfolioweb from "./icons/portfolio_web.svg";
+import buymeacoffee from "./icons/buymeacoffee.svg";
+
+// import brand
+import logo from "./brand/logoSmall.png";
 
 // import documents
 import cv from "./cv.pdf";
@@ -95,4 +98,5 @@ export {
   calltracker,
   pokerdisplay,
   portfolioweb,
+  buymeacoffee,
 };

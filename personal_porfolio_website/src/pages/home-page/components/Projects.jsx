@@ -1,9 +1,16 @@
-import { apple, card, google } from "../assets";
-import styles, { layout } from "../style";
-import Button from "./Button";
+// import routing
 import { Link } from "react-router-dom";
 
-const HomeProjects = () => {
+// import styles
+import styles, { layout } from "../../../style";
+
+// import images
+import { apple, card, google } from "../../../assets";
+
+// import global components
+import Button from "../../../components/Button";
+
+const Projects = () => {
   return (
     <section id="portfolio" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
@@ -45,4 +52,4 @@ const HomeProjects = () => {
   );
 };
 
-export default HomeProjects;
+export default Projects;

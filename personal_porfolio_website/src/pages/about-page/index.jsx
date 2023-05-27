@@ -3,8 +3,8 @@ import React from "react";
 // import styles
 import styles, { layout } from "../../style";
 
-// import components
-import AboutIntro from "../../components/AboutIntro";
+// import specific components
+import AboutIntro from "./AboutIntro";
 
 const About = () => {
   return (

@@ -1,8 +1,13 @@
-import Button from "./Button";
-import styles from "../style";
+// import routing
 import { Link } from "react-router-dom";
 
-const Contact = () => {
+// import styles
+import styles from "../../../style";
+
+// import global components
+import Button from "../../../components/Button";
+
+const GetInToach = () => {
   return (
     <section
       id="contact"
@@ -24,4 +29,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default GetInToach;

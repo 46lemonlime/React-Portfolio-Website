@@ -11,7 +11,6 @@ import { chat } from "../../assets";
 
 // import components
 import Button from "../../components/Button";
-import { ReachMe } from "../../components";
 
 const Contact = () => {
   return (
@@ -53,7 +52,6 @@ const Contact = () => {
             />
           </div>
         </section>
-        <ReachMe />
       </div>
     </div>
   );
