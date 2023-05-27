@@ -26,6 +26,7 @@ import {
   calltracker,
   pokerdisplay,
   portfolioweb,
+  buymeacoffee,
 } from "../assets";
 
 export const navLinks = [
@@ -333,6 +334,11 @@ export const socialMedia = [
   },
   {
     id: "social-media-9",
+    icon: buymeacoffee,
+    link: "https://www.buymeacoffee.com/_jsondev",
+  },
+  {
+    id: "social-media-10",
     icon: kofi,
     link: "https://www.ko-fi.com/jsondev/",
   },

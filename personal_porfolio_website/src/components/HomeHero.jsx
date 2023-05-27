@@ -1,6 +1,6 @@
 import styles, { layout } from "../style";
 import { discount, me } from "../assets";
-import Button from "../components/Button";
+import Button from "./Button";
 import { Link } from "react-router-dom";
 import Stats from "./Stats";
 import { TypeAnimation } from "react-type-animation";

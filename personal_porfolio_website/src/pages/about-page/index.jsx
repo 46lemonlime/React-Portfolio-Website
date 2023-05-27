@@ -3,15 +3,15 @@ import React from "react";
 // import styles
 import styles, { layout } from "../../style";
 
-// import components
-import AboutIntro from "../../components/AboutIntro";
+// import specific components
+import AboutIntro from "./AboutIntro";
 
 const About = () => {
   return (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <section
-          className={`flex md:flex-row flex-col ${styles.paddingY} ${layout.sectionReverse} `}
+          className={`flex md:flex-row flex-col ${styles.paddingY} ${layout.sectionReverse} sm:mt-40`}
         >
           <AboutIntro />
         </section>

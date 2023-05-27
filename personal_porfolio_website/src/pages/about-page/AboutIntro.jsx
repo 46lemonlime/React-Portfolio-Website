@@ -1,9 +1,9 @@
-import { features } from "../constants";
-import styles, { layout } from "../style";
-import GetRoadmap from "./GetRoadmap";
-import Button from "./Button";
+import { features } from "../../constants";
+import styles, { layout } from "../../style";
+import GetRoadmap from "../../components/GetRoadmap";
+import Button from "../../components/Button";
 import { Link } from "react-router-dom";
-import { aboutme } from "../assets";
+import { aboutme } from "../../assets";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
