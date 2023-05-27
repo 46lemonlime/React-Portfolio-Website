@@ -39,6 +39,10 @@ import service00 from "./services-icon.svg";
 import WIP from "./WIP.svg";
 import error_img from "./404.svg";
 import aboutme from "./aboutme.svg";
+import chat from "./chat_bubble.svg";
+import calltracker from "./call_progress_tracker.svg";
+import pokerdisplay from "./poker_strat_display.svg";
+import portfolioweb from "./portfolio_web.svg";
 
 export {
   airbnb,
@@ -82,4 +86,8 @@ export {
   WIP,
   error_img,
   aboutme,
+  chat,
+  calltracker,
+  pokerdisplay,
+  portfolioweb,
 };

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import styles from "../../style";
 import { logo } from "../../assets";
-import { footerLinks, socialMedia } from "../../constants";
+import { footerLinks, socialMedia, navLinks } from "../../constants";
 
 const Footer = () => (
   <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>

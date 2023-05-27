@@ -153,6 +153,14 @@
   transform: translateY(10px);
 }
 
+.service-card {
+  background: var(--black-gradient);
+}
+
+.service-card:hover {
+  transform: translateY(10px);
+}
+
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
   filter: blur(123px);

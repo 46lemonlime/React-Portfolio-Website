@@ -23,6 +23,9 @@ import {
   rubik,
   books,
   setup,
+  calltracker,
+  pokerdisplay,
+  portfolioweb,
 } from "../assets";
 
 export const navLinks = [
@@ -107,7 +110,7 @@ export const projects = [
       "Desktop application designed to empower customer service agents during calls. Developed using VBA, helps agents deliver outstanding service and exceeding KPIs.",
     name: "Call Progress Tracker",
     title: "VBA",
-    img: user,
+    img: calltracker,
   },
   {
     id: "project-2",
@@ -115,7 +118,7 @@ export const projects = [
       "Desktop application designed to provide poker players accurate adherence and optimal study with their customized poker strategy.",
     name: "Poker Strat Display",
     title: "VBA",
-    img: user,
+    img: pokerdisplay,
   },
   {
     id: "project-3",
@@ -123,7 +126,7 @@ export const projects = [
       "Dynamic website used as a platform to introduce myself, display my work, and highlight my expertise, skills and achievements in various fields.",
     name: "Portfolio Website",
     title: "HTML, CSS, Javascript, React, Tailwind, Vite",
-    img: user,
+    img: portfolioweb,
   },
 ];
 
@@ -171,7 +174,7 @@ export const services = [
   {
     id: "service-6",
     content:
-      "Personalized coaching for stakes ranging from 2NL to 25NL. Receive expert guidance to improve your strategy and maximize your profits.",
+      "Personalized 1 to 1 coaching for stakes from 2NL to 25NL. Receive expert guidance to improve your strategy and maximize your profits.",
     name: "Poker Coaching for Cashgames from 2NL to 25NL",
     title: "Elevate Your Poker Game",
     img: user,
@@ -197,6 +200,31 @@ export const stats = [
 ];
 
 export const footerLinks = [
+  {
+    title: "Navegation",
+    links: [
+      {
+        name: "Home",
+        link: "/",
+      },
+      {
+        name: "About",
+        link: "/aboutme",
+      },
+      {
+        name: "Portfolio",
+        link: "/projects",
+      },
+      {
+        name: "Services",
+        link: "/services",
+      },
+      {
+        name: "Contact",
+        link: "/contact",
+      },
+    ],
+  },
   {
     title: "Useful Links",
     links: [

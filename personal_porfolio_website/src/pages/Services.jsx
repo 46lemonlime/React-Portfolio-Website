@@ -4,7 +4,7 @@ import { service00 } from "../assets";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 import { services } from "../constants";
-import ServicesCard from "../components/ProjectCard";
+import ServicesCard from "../components/ServicesCard";
 import { Testimonials, Clients } from "../components";
 
 const Services = () => {
