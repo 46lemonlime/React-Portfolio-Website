@@ -1,11 +1,21 @@
 import React from "react";
-import styles, { layout } from "../style";
-import { service00 } from "../assets";
+
+// import routing
 import { Link } from "react-router-dom";
-import Button from "../components/Button";
-import { services } from "../constants";
-import ServicesCard from "../components/ServicesCard";
-import { Testimonials, Clients } from "../components";
+
+// impost styles
+import styles, { layout } from "../../style";
+
+// import images
+import { service00 } from "../../assets";
+
+// import components
+import Button from "../../components/Button";
+import ServicesCard from "../../components/ServicesCard";
+import { Testimonials, Clients } from "../../components";
+
+// import constants
+import { services } from "../../constants";
 
 const Services = () => {
   return (

@@ -1,10 +1,20 @@
 import React from "react";
-import styles, { layout } from "../style";
-import { project00 } from "../assets";
+
+// import routing
 import { Link } from "react-router-dom";
-import Button from "../components/Button";
-import { projects } from "../constants";
-import ProjectCard from "../components/ProjectCard";
+
+// import styles
+import styles, { layout } from "../../style";
+
+// import images
+import { project00 } from "../../assets";
+
+// import components
+import Button from "../../components/Button";
+import ProjectCard from "../../components/ProjectCard";
+
+// import constants
+import { projects } from "../../constants";
 
 const Projects = () => {
   return (
@@ -14,7 +24,6 @@ const Projects = () => {
           className={`flex md:flex-row flex-col ${styles.paddingY} ${layout.sectionReverse} sm:mt-40`}
         >
           <div>
-            // gradient
             <div className="absolute z-[0] w-[40%] h-[40%] right-10 top-1/2 rounded-full red__gradient" />
             <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
               Projects

@@ -1,7 +1,6 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import GetRoadmap from "./GetRoadmap";
-import { card } from "../assets";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 import { aboutme } from "../assets";

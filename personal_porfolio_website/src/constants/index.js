@@ -34,7 +34,7 @@ export const navLinks = [
     title: "Home",
   },
   {
-    link: "/aboutme",
+    link: "/about",
     title: "About",
   },
   {
@@ -209,7 +209,7 @@ export const footerLinks = [
       },
       {
         name: "About",
-        link: "/aboutme",
+        link: "/about",
       },
       {
         name: "Portfolio",
@@ -230,23 +230,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "How it Works",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "Create",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "Explore",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "Terms & Services",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
     ],
   },
@@ -255,23 +255,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "Partners",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "Suggestions",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "Blog",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "Newsletters",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
     ],
   },
@@ -280,11 +280,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
       {
         name: "Become a Partner",
-        link: "https://www.jsondev.uk/construction",
+        link: "/construction",
       },
     ],
   },

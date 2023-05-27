@@ -1,7 +1,15 @@
 import React from "react";
-import styles from "../style";
 
-import { HomeHero, HomeProjects, HomeServices, ReachMe } from "../components";
+// import styles
+import styles from "../../style";
+
+// import components
+import {
+  HomeHero,
+  HomeProjects,
+  HomeServices,
+  ReachMe,
+} from "../../components";
 
 const Home = () => {
   return (

@@ -20,6 +20,8 @@
 - added react-type-animation
 - added icons to projects
 - added content to Contact me page
+- reorganised project files
+- added comments for better readability
 
 04.2023
 - first website upload and deployment

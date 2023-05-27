@@ -1,14 +1,17 @@
 import React from "react";
+
+// import routing
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+// import pages
 import Layout from "../components/Layout";
-import Home from "../pages/Home";
-import AboutMe from "../pages/AboutMe";
-import Contact from "../pages/Contact";
-import Projects from "../pages/Projects";
-import Services from "../pages/Services";
-import Construction from "../pages/Construction";
-import Error from "../pages/Error";
+import Home from "../pages/home-page";
+import About from "../pages/about-page";
+import Contact from "../pages/contact-page";
+import Projects from "../pages/portfolio-page";
+import Services from "../pages/services-page";
+import Construction from "../pages/construction-page";
+import Error from "../pages/error-page";
 
 const App = () => {
   return (
@@ -16,7 +19,7 @@ const App = () => {
       <Layout>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/AboutMe" element={<AboutMe />} />
+          <Route exact path="/About" element={<About />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/contact" element={<Contact />} />
