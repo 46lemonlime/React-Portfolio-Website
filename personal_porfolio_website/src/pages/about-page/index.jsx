@@ -1,5 +1,9 @@
 import React from "react";
+
+// import styles
 import styles, { layout } from "../../style";
+
+// import components
 import About from "../../components/About";
 
 const AboutMe = () => {

@@ -1,7 +1,15 @@
 import React from "react";
-import styles, { layout } from "../../style";
-import { chat } from "../../assets";
+
+// import routing
 import { Link } from "react-router-dom";
+
+// import styles
+import styles, { layout } from "../../style";
+
+// import images
+import { chat } from "../../assets";
+
+// import components
 import Button from "../../components/Button";
 import { ReachMe } from "../../components";
 

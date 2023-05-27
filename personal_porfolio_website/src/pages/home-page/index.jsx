@@ -1,6 +1,9 @@
 import React from "react";
+
+// import styles
 import styles from "../../style";
 
+// import components
 import {
   HomeHero,
   HomeProjects,

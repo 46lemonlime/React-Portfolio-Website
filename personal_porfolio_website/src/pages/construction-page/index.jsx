@@ -1,7 +1,15 @@
 import React from "react";
-import styles, { layout } from "../../style";
-import { WIP } from "../../assets";
+
+// import routing
 import { Link } from "react-router-dom";
+
+// import styles
+import styles, { layout } from "../../style";
+
+//import images
+import { WIP } from "../../assets";
+
+// import components
 import Button from "../../components/Button";
 
 const Construction = () => {

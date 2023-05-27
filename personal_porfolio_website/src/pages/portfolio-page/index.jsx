@@ -1,10 +1,20 @@
 import React from "react";
-import styles, { layout } from "../../style";
-import { project00 } from "../../assets";
+
+// import routing
 import { Link } from "react-router-dom";
+
+// import styles
+import styles, { layout } from "../../style";
+
+// import images
+import { project00 } from "../../assets";
+
+// import components
 import Button from "../../components/Button";
-import { projects } from "../../constants";
 import ProjectCard from "../../components/ProjectCard";
+
+// import constants
+import { projects } from "../../constants";
 
 const Projects = () => {
   return (
