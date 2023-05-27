@@ -1,11 +1,11 @@
 import React from "react";
-import styles, { layout } from "../style";
-import { service00 } from "../assets";
+import styles, { layout } from "../../style";
+import { service00 } from "../../assets";
 import { Link } from "react-router-dom";
-import Button from "../components/Button";
-import { services } from "../constants";
-import ServicesCard from "../components/ServicesCard";
-import { Testimonials, Clients } from "../components";
+import Button from "../../components/Button";
+import { services } from "../../constants";
+import ServicesCard from "../../components/ServicesCard";
+import { Testimonials, Clients } from "../../components";
 
 const Services = () => {
   return (

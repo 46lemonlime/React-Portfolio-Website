@@ -1,6 +1,6 @@
 import React from "react";
-import styles, { layout } from "../style";
-import About from "../components/About";
+import styles, { layout } from "../../style";
+import About from "../../components/About";
 
 const AboutMe = () => {
   return (

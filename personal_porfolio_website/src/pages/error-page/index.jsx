@@ -1,8 +1,8 @@
 import React from "react";
-import styles, { layout } from "../style";
-import { error_img } from "../assets";
+import styles, { layout } from "../../style";
+import { error_img } from "../../assets";
 import { Link } from "react-router-dom";
-import Button from "../components/Button";
+import Button from "../../components/Button";
 
 const Error = () => {
   return (

@@ -1,7 +1,12 @@
 import React from "react";
-import styles from "../style";
+import styles from "../../style";
 
-import { HomeHero, HomeProjects, HomeServices, ReachMe } from "../components";
+import {
+  HomeHero,
+  HomeProjects,
+  HomeServices,
+  ReachMe,
+} from "../../components";
 
 const Home = () => {
   return (
