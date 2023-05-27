@@ -3,23 +3,18 @@ import React from "react";
 // import styles
 import styles from "../../style";
 
-// import components
-import {
-  HomeHero,
-  HomeProjects,
-  HomeServices,
-  ReachMe,
-} from "../../components";
+// import specific components
+import { Hero, Projects, Products, GetInToach } from "./components";
 
 const Home = () => {
   return (
     <div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <HomeHero />
-          <HomeProjects />
-          <HomeServices />
-          <ReachMe />
+          <Hero />
+          <Projects />
+          <Products />
+          <GetInToach />
         </div>
       </div>
     </div>
