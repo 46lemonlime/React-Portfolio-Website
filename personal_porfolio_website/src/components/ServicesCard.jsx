@@ -8,7 +8,7 @@ const ServicesCard = ({ content, name, title, img }) => {
           loading="lazy"
           src={img}
           alt={name}
-          className="w-[96px] h-[96px] rounded-full"
+          className="w-[96px] h-[96px]"
         />
       </div>
       <div className="flex flex-row">

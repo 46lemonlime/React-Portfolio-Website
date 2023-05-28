@@ -45,6 +45,12 @@ import calltracker from "./icons/call_progress_tracker.svg";
 import pokerdisplay from "./icons/poker_strat_display.svg";
 import portfolioweb from "./icons/portfolio_web.svg";
 import buymeacoffee from "./icons/buymeacoffee.svg";
+import consultation from "./icons/consultation.svg";
+import customerservice from "./icons/customerservice.svg";
+import marketing from "./icons/marketing.svg";
+import poker from "./icons/poker.svg";
+import ux from "./icons/ux.svg";
+import webdev from "./icons/webdev.svg";
 
 // import brand
 import logo from "./brand/logoSmall.png";
@@ -99,4 +105,10 @@ export {
   pokerdisplay,
   portfolioweb,
   buymeacoffee,
+  consultation,
+  customerservice,
+  marketing,
+  poker,
+  ux,
+  webdev,
 };

@@ -4,7 +4,8 @@ import React from "react";
 import styles, { layout } from "../../style";
 
 // import specific components
-import AboutIntro from "./AboutIntro";
+import AboutIntro from "./components/AboutIntro";
+import AboutFeature from "./components/AboutFeature";
 
 const About = () => {
   return (

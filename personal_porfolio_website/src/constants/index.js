@@ -27,6 +27,12 @@ import {
   pokerdisplay,
   portfolioweb,
   buymeacoffee,
+  consultation,
+  customerservice,
+  marketing,
+  poker,
+  ux,
+  webdev,
 } from "../assets";
 
 export const navLinks = [
@@ -138,7 +144,7 @@ export const services = [
       "Engaging portfolio websites that highlight your work. Get consultation on showcasing your projects effectively.",
     name: "Project Showcasing and Consultation",
     title: "SPA & Multipage react websites",
-    img: user,
+    img: consultation,
   },
   {
     id: "service-2",
@@ -146,7 +152,7 @@ export const services = [
       "Custom websites and web applications to fit your business needs. Responsive layouts and advanced functionalities.",
     name: "Web Development and Custom Solutions",
     title: "Tailored Websites and Web Apps",
-    img: user,
+    img: webdev,
   },
   {
     id: "service-3",
@@ -154,7 +160,7 @@ export const services = [
       "Enhanced user experience through intuitive interfaces. Wireframing, prototyping, and pixel-perfect designs to bring ideas to life.",
     name: "UI/UX Design and Prototyping",
     title: "Intuitive Interfaces and Pixel-Perfect Designs",
-    img: user,
+    img: ux,
   },
   {
     id: "service-4",
@@ -162,7 +168,7 @@ export const services = [
       "Strategic digital marketing solutions to increase brand visibility, drive targeted traffic, and achieve your business objectives.",
     name: "Digital Marketing Strategies and Optimization",
     title: "Boost Online Presence and Targeted Traffic",
-    img: user,
+    img: marketing,
   },
   {
     id: "service-5",
@@ -170,7 +176,7 @@ export const services = [
       "Deliver exceptional customer service experiences in both Spanish and English languages. Bridge the communication gap and provide top-notch support.",
     name: "Customer Service in Spanish and English",
     title: "Seamless Support in Multiple Languages",
-    img: user,
+    img: customerservice,
   },
   {
     id: "service-6",
@@ -178,7 +184,7 @@ export const services = [
       "Personalized 1 to 1 coaching for stakes from 2NL to 25NL. Receive expert guidance to improve your strategy and maximize your profits.",
     name: "Poker Coaching for Cashgames from 2NL to 25NL",
     title: "Elevate Your Poker Game",
-    img: user,
+    img: poker,
   },
 ];
 
