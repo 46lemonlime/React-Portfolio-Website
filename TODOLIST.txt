@@ -29,6 +29,7 @@ TODO #8:
 
 TODO #9:
 - make components more reusable
+- make each section an individual component
 
 TODO #10
 - standarise html element properties (h1,h2,p,etc...)
