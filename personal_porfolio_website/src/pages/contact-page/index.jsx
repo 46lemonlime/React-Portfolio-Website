@@ -12,6 +12,9 @@ import { chat } from "../../assets";
 // import components
 import Button from "../../components/Button";
 
+// import specific components
+import ContactForm from "./components/ContactForm";
+
 const Contact = () => {
   return (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
@@ -52,6 +55,7 @@ const Contact = () => {
             />
           </div>
         </section>
+        <ContactForm />
       </div>
     </div>
   );
