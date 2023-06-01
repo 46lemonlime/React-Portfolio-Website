@@ -24,11 +24,9 @@ const About = () => {
       <div className={layout.sectionReverse}>
         <div className={layout.sectionInfo}>
           <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
-          <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
-            About Me
-          </h1>
-          <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
-            WELCOME TO MY ABOUT PAGE!
+          <h1 className={`${styles.heading1} mt-10`}>About Me</h1>
+          <p className={`${styles.subheading} my-5`}>
+            Welcome to my about page!
           </p>
           <div className="flex flex-row justify-between items-center w-full">
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -38,10 +36,6 @@ const About = () => {
               professional in various domains.
             </p>
           </div>
-
-          <Link to="/">
-            <Button styles={`mt-10`} children={"Back Home"} />
-          </Link>
         </div>
         <div className={layout.sectionImgReverse}>
           <img

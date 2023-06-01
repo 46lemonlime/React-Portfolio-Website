@@ -113,78 +113,87 @@ export const feedback = [
 export const projects = [
   {
     id: "project-1",
-    content:
-      "Desktop application designed to empower customer service agents during calls. Developed using VBA, helps agents deliver outstanding service and exceeding KPIs.",
+    img: calltracker,
     name: "Call Progress Tracker",
     title: "VBA",
-    img: calltracker,
+    content:
+      "Desktop application designed to empower customer service agents during calls. Developed using VBA, helps agents deliver outstanding service and exceeding KPIs.",
+    link: "/Construction",
   },
   {
     id: "project-2",
-    content:
-      "Desktop application designed to provide poker players accurate adherence and optimal study with their customized poker strategy.",
+    img: pokerdisplay,
     name: "Poker Strat Display",
     title: "VBA",
-    img: pokerdisplay,
+    content:
+      "Desktop application designed to provide poker players accurate adherence and optimal study with their customized poker strategy.",
+    link: "/Construction",
   },
   {
     id: "project-3",
-    content:
-      "Dynamic website used as a platform to introduce myself, display my work, and highlight my expertise, skills and achievements in various fields.",
+    img: portfolioweb,
     name: "Portfolio Website",
     title: "HTML, CSS, Javascript, React, Tailwind, Vite",
-    img: portfolioweb,
+    content:
+      "Dynamic website used as a platform to introduce myself, display my work, and highlight my expertise, skills and achievements in various fields.",
+    link: "/Construction",
   },
 ];
 
 export const services = [
   {
     id: "service-1",
+    img: consultation,
+    name: "Project Showcasing and Consultation",
+    title: "SPA, Wordpress, Shopify websites",
     content:
       "Engaging portfolio websites that highlight your work. Get consultation on showcasing your projects effectively.",
-    name: "Project Showcasing and Consultation",
-    title: "SPA & Multipage react websites",
-    img: consultation,
+    link: "/Construction",
   },
   {
     id: "service-2",
+    img: webdev,
+    name: "Custom Web and App Development",
+    title: "Tailored Websites and Web Apps",
     content:
       "Custom websites and web applications to fit your business needs. Responsive layouts and advanced functionalities.",
-    name: "Web Development and Custom Solutions",
-    title: "Tailored Websites and Web Apps",
-    img: webdev,
+    link: "/Construction",
   },
   {
     id: "service-3",
+    img: ux,
+    name: "UI/UX Design",
+    title: "Intuitive Interfaces and Pixel-Perfect Designs",
     content:
       "Enhanced user experience through intuitive interfaces. Wireframing, prototyping, and pixel-perfect designs to bring ideas to life.",
-    name: "UI/UX Design and Prototyping",
-    title: "Intuitive Interfaces and Pixel-Perfect Designs",
-    img: ux,
+    link: "/Construction",
   },
   {
     id: "service-4",
-    content:
-      "Strategic digital marketing solutions to increase brand visibility, drive targeted traffic, and achieve your business objectives.",
+    img: marketing,
     name: "Digital Marketing Strategies and Optimization",
     title: "Boost Online Presence and Targeted Traffic",
-    img: marketing,
+    content:
+      "Strategic digital marketing solutions to increase brand visibility, drive targeted traffic, and achieve your business objectives.",
+    link: "/Construction",
   },
   {
     id: "service-5",
-    content:
-      "Deliver exceptional customer service experiences in both Spanish and English languages. Bridge the communication gap and provide top-notch support.",
+    img: customerservice,
     name: "Customer Service in Spanish and English",
     title: "Seamless Support in Multiple Languages",
-    img: customerservice,
+    content:
+      "Deliver exceptional customer service experiences in both Spanish and English languages. Bridge the communication gap and provide top-notch support.",
+    link: "/Construction",
   },
   {
     id: "service-6",
+    img: poker,
+    name: "Cashgames Poker Coaching 2NL to 25NL",
+    title: "Elevate Your Poker Game",
     content:
       "Personalized 1 to 1 coaching for stakes from 2NL to 25NL. Receive expert guidance to improve your strategy and maximize your profits.",
-    name: "Poker Coaching for Cashgames from 2NL to 25NL",
-    title: "Elevate Your Poker Game",
-    img: poker,
+    link: "/Construction",
   },
 ];
 

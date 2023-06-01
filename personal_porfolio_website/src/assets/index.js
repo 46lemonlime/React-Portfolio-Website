@@ -14,6 +14,8 @@ import service00 from "./images/services-icon.svg";
 import WIP from "./images/WIP.svg";
 import error_img from "./images/404.svg";
 import aboutme from "./images/aboutme.svg";
+import placeholder from "./images/placeholder.svg";
+import location from "./images/location.png";
 
 // import icons
 import quotes from "./icons/quotes.svg";
@@ -111,4 +113,6 @@ export {
   poker,
   ux,
   webdev,
+  placeholder,
+  location,
 };

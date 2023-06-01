@@ -21,15 +21,11 @@ const Construction = () => {
         >
           <div>
             <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
-            <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
-              Coming Soon!
-            </h1>
-            <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
-              WE ARE WORKING HARD TO GIVE YOU A BETTER EXPERIENCE.
+            <h1 className={`${styles.heading1} mt-10`}>Coming Soon!</h1>
+            <p className={`${styles.subheading} my-5`}>
+              we are working hard to give you a better experience.
             </p>
-            <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
-              Get Ready for Something Big!
-            </h4>
+            <h4 className={styles.heading4}>Get Ready for Something Big!</h4>
             <p className={`${styles.paragraph} max-w-[470px] `}>
               We're in the process of updating our website & the page will go
               live any time soon. To stay informed, sign up for our email

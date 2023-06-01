@@ -14,8 +14,8 @@ import { discount, me } from "../../../assets";
 import Button from "../../../components/Button";
 
 // import specific components
-import Stats from "../../../components/Stats";
-import GetCV from "../../../components/GetCV";
+import Stats from "./Stats";
+import GetCV from "./GetCV";
 
 const Hero = () => {
   return (
@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-row justify-between items-center w-full">
-            <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+            <h1 className={styles.display}>
               Jeison <br className="sm:block hidden" />{" "}
               <span className="text-gradient">Porfirio</span>{" "}
             </h1>
@@ -45,9 +45,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-            Plaza Sanchez
-          </h1>
+          <h1 className={styles.display}>Plaza Sanchez</h1>
           <TypeAnimation
             sequence={[
               "Software Developer",

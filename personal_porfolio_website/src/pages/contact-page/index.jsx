@@ -13,6 +13,7 @@ import { chat } from "../../assets";
 import Button from "../../components/Button";
 
 // import specific components
+import ContactInfo from "./components/ContactInfo";
 import ContactForm from "./components/ContactForm";
 
 const Contact = () => {
@@ -24,13 +25,11 @@ const Contact = () => {
         >
           <div>
             <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
-            <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
-              Contact Me
-            </h1>
-            <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
-              DONT HESITATE, GET IN TOACH!
+            <h1 className={`${styles.heading1} mt-10`}>Contact Me</h1>
+            <p className={`${styles.subheading} my-5`}>
+              dont hesitate, get in toach!
             </p>
-            <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+            <h4 className={`${styles.heading4}`}>
               I am excited to connect with you!
             </h4>
             <p className={`${styles.paragraph} max-w-[470px] `}>
@@ -40,9 +39,6 @@ const Contact = () => {
               is important, and I'll respond promptly. Let's connect and explore
               the possibilities together!
             </p>
-            <Link to="/">
-              <Button styles={`mt-10`} children={"Back Home"} />
-            </Link>
           </div>
           <div
             className={`flex-1 flex ${styles.flexCenter} ${styles.padding} md:my-0 my-10 relative`}
@@ -55,6 +51,7 @@ const Contact = () => {
             />
           </div>
         </section>
+        <ContactInfo />
         <ContactForm />
       </div>
     </div>

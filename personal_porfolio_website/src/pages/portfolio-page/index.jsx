@@ -11,7 +11,7 @@ import { project00 } from "../../assets";
 
 // import components
 import Button from "../../components/Button";
-import ProjectCard from "../../components/ProjectCard";
+import ProjectCard from "./components/ProjectCard";
 
 // import constants
 import { projects } from "../../constants";
@@ -25,13 +25,11 @@ const Projects = () => {
         >
           <div>
             <div className="absolute z-[0] w-[40%] h-[40%] right-10 top-1/2 rounded-full red__gradient" />
-            <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
-              Projects
-            </h1>
-            <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
-              WELCOME TO MY PROJECTS PAGE!
+            <h1 className={` ${styles.heading1} mt-10`}>Projects</h1>
+            <p className={` ${styles.subheading} my-5`}>
+              welcome to my projects page!
             </p>
-            <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+            <h4 className={styles.heading4}>
               Here you'll find a collection of my latest and most exciting
               projects.
             </h4>
@@ -40,9 +38,6 @@ const Projects = () => {
               abilities. Feel free to browse through the collection and click on
               each project to explore its unique details
             </p>
-            <Link to="/">
-              <Button children={"Back Home"} />
-            </Link>
           </div>
           <div
             className={`flex-1 flex ${styles.flexCenter} ${styles.padding} md:my-0 my-10 relative`}

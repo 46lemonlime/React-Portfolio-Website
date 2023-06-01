@@ -1,6 +1,13 @@
+// import routing
 import { Link } from "react-router-dom";
 
-const ServicesCard = ({ content, name, title, img }) => {
+// import styles
+import styles from "../../../style";
+
+// import global components
+import Button from "../../../components/Button";
+
+const ServicesCard = ({ img, name, title, content, link }) => {
   return (
     <div className="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 service-card">
       <div className="flex flex-row justify-center">
@@ -13,22 +20,18 @@ const ServicesCard = ({ content, name, title, img }) => {
       </div>
       <div className="flex flex-row">
         <div className="flex flex-col mt-10">
-          <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
-            {name}
-          </h4>
-          <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
-            {title}
-          </p>
+          <h4 className={styles.heading4}>{name}</h4>
+          <p className={`${styles.paragraph2} text-secondary`}>{title}</p>
         </div>
       </div>
-      <p className="font-poppins font-normal text-[18px] leading-[32px] text-white mt-2 mb-8 text-start">
+      <p className={`${styles.paragraph} text-dimwhite mt-2 mb-8 text-start`}>
         {content}
       </p>
       <Link
-        to="/Construction"
-        className="text-center font-poppins font-normal text-[16px] leading-[24px] text-secondary"
+        to={link}
+        className={` ${styles.paragraph2} font-semibold bg-secondary-gradient rounded-[10px] px-[10px] text-center bg-secondary text-primary`}
       >
-        See more
+        See More
       </Link>
     </div>
   );

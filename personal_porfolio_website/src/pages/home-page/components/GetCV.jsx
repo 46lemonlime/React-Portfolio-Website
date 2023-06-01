@@ -1,6 +1,6 @@
-import styles from "../style";
-import { arrowUp } from "../assets";
-import { cv } from "../assets";
+import styles from "../../../style";
+import { arrowUp } from "../../../assets";
+import { cv } from "../../../assets";
 
 const GetCV = () => {
   return (

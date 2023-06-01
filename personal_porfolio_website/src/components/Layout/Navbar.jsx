@@ -1,29 +1,40 @@
 import { useState } from "react";
+
+// import styles
+import styles from "../../style";
+
+// import routing
 import { Link } from "react-router-dom";
-import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+
+// import images
+import { close, logo, menu } from "../../assets";
+
+// import constants
+import { navLinks } from "../../constants";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
+      {/* on Browser */}
       <Link to="/">
-        <img src={logo} alt="hoobank" className="w-[120px] h-[40px]" />
+        <img src={logo} alt="JsonDev" className="w-[120px] h-[40px]" />
       </Link>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <Link
             to={nav.link}
-            className={`font-poppins font-normal cursor-pointer text-[16px] text-white relative ${
+            className={`${styles.paragraph2} navLink text-white relative ${
               index === navLinks.length ? "mr-0" : "mr-10"
             }`}
           >
-            <a className="navLink" href={`/#${nav.link}`}>
-              {nav.title}
-            </a>
+            {nav.title}
           </Link>
         ))}
       </ul>
+      {/* on Browser */}
+
+      {/* on Mobile device */}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
@@ -50,6 +61,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+      {/* Mobile device */}
     </nav>
   );
 };

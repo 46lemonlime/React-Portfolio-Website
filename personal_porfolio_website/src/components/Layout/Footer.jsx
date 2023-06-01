@@ -5,7 +5,7 @@ import { logo } from "../../assets";
 import { footerLinks, socialMedia, navLinks } from "../../constants";
 
 const Footer = () => (
-  <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+  <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter} mt-20`}>
     <div className={`${styles.boxWidth}`}>
       <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
         <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
@@ -14,7 +14,7 @@ const Footer = () => (
               <img
                 loading="lazy"
                 src={logo}
-                alt="hoobank"
+                alt="JsonDev"
                 className="w-[266px] h-[72.14px] object-contain"
               />
             </Link>
@@ -37,7 +37,9 @@ const Footer = () => (
                   {footerlink.links.map((link, index) => (
                     <li
                       key={link.name}
-                      className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                      className={`${
+                        styles.paragraph2
+                      } hover:text-secondary cursor-pointer ${
                         index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                       }`}
                     >
@@ -51,7 +53,7 @@ const Footer = () => (
         </div>
 
         <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-          <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+          <p className={`${styles.paragraph} text-white`}>
             Copyright © Jeison Sanchez | All rights reserved
           </p>
 
