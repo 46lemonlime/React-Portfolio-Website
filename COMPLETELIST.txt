@@ -1,4 +1,8 @@
 
+06.2023
+- Amended testimonials styling
+- Added contact info section
+
 05.2023
 - Implemented routing for multipage with react-router-dom
 - fixed errors from server due to react-router-dom implementation
@@ -23,6 +27,7 @@
 - reorganised project files
 - added comments for better readability
 - replaces template icons for custom
+- added contact form
 
 04.2023
 - first website upload and deployment

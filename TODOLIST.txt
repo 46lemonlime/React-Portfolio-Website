@@ -32,9 +32,10 @@ TODO #9:
 - make each section an individual component
 
 TODO #10
-- standarise html element properties (h1,h2,p,etc...)
+- standarise html elements properties and styles (h1,h2,p,etc...)
 - standarise photo and icon sizes.
 
 
 TODO #11
+- complete implementation of the form
 

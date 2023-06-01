@@ -6,20 +6,19 @@ const Testimonials = () => {
   return (
     <section
       id="clients"
-      className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
+      className={`${styles.paddingY} text-center flex-col relative`}
     >
       Testimonials
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/4 rounded-full red__gradient" />
-      <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-        <h1 className={styles.heading2}>
-          What people are <br className="sm:block hidden" /> saying about me:
+      <div className="w-full flex justify-between items-center flex-col sm:mb-16 mb-6 relative z-[1]">
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
+          Testimonials
         </h1>
-        <div className="w-full md:mt-0 mt-6">
-          <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-            "Working with Jeison has been an absolute pleasure - he truly goes
-            above and beyond."
-          </p>
-        </div>
+        <h1
+          className={`font-poppins font-semibold xs:text-[40px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-center text-gradient`}
+        >
+          What people are saying about me
+        </h1>
       </div>
       <div className="flex flex-wrap sm:justify-start justify-center relative z-[1]">
         {feedback.map((card) => (
