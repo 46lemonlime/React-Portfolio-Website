@@ -27,7 +27,7 @@ const Contact = () => {
             <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
             <h1 className={`${styles.heading1} mt-10`}>Contact Me</h1>
             <p className={`${styles.subheading} my-5`}>
-              dont hesitate, get in toach!
+              dont hesitate, get in touch!
             </p>
             <h4 className={`${styles.heading4}`}>
               I am excited to connect with you!
