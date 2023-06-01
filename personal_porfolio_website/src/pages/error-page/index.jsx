@@ -21,14 +21,12 @@ const Error = () => {
         >
           <div>
             <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
-            <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
-              404 Not Found!
-            </h1>
-            <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
-              IT LOOKS LIKE THE PAGE YOU'RE LOOKING FOR DOESN'T EXIST OR HAS
-              BEEN MOVED.
+            <h1 className={`${styles.heading1} mt-10`}>404 Not Found!</h1>
+            <p className={`${styles.subheading} my-5`}>
+              It looks like the page you're looking for doesn't exist or has
+              been moved.
             </p>
-            <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+            <h4 className={styles.heading4}>
               Oops! We couldn't find that page.
             </h4>
             <p className={`${styles.paragraph} max-w-[470px] mb-10`}>
@@ -36,7 +34,7 @@ const Error = () => {
               issues, please fill out our contact form and we'll get back to you
               as soon as possible. Thank you for your understanding.
             </p>
-            <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+            <h4 className={styles.heading4}>
               Here are a few things you can try:
             </h4>
             <p className={`${styles.paragraph} max-w-[470px] `}>

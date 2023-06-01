@@ -9,10 +9,8 @@ import styles, { layout } from "../../style";
 // import images
 import { service00 } from "../../assets";
 
-// import components
-import Button from "../../components/Button";
-import ServicesCard from "../../components/ServicesCard";
-import { Testimonials, Clients } from "../../components";
+// import specific components
+import ServicesCard from "./components/ServicesCard";
 
 // import constants
 import { services } from "../../constants";
@@ -26,13 +24,11 @@ const Services = () => {
         >
           <div>
             <div className="absolute z-[0] w-[40%] h-[40%] right-20 top-1/2 rounded-full red__gradient" />
-            <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
-              Services
-            </h1>
-            <p className="font-poppins font-semibold text-[18px] leading-[32px] text-gradient my-5">
-              WELCOME TO MY SERVICES PAGE!
+            <h1 className={`${styles.heading1} mt-10`}>Services</h1>
+            <p className={` ${styles.subheading} my-5`}>
+              welcome to my service page!
             </p>
-            <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+            <h4 className={styles.heading4}>
               Here you'll find a collection of the products and services I
               provide.
             </h4>
@@ -43,7 +39,7 @@ const Services = () => {
               digital marketing strategies, I bring a wealth of expertise to
               help you achieve your goals.
             </p>
-            <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
+            <h4 className={styles.heading4}>
               Customer services and Poker 1 to 1 coaching.
             </h4>
             <p className={`${styles.paragraph} max-w-[470px] mb-10`}>
@@ -51,9 +47,6 @@ const Services = () => {
               and playing poker semi-profesionaly since 2019 I offer my services
               as a multilingual customer service agent and poker coach.
             </p>
-            <Link to="/">
-              <Button children={"Back Home"} />
-            </Link>
           </div>
           <div
             className={`flex-1 flex ${styles.flexCenter} ${styles.padding} md:my-0 my-10 relative`}
@@ -72,8 +65,6 @@ const Services = () => {
             ))}
           </div>
         </section>
-        <Testimonials />
-        <Clients />
       </div>
     </div>
   );

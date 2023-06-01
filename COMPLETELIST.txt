@@ -2,6 +2,9 @@
 06.2023
 - Amended testimonials styling
 - Added contact info section
+- standardised styling for html elements
+- amended Projects and Services card style
+- fixed typo's and added content
 
 05.2023
 - Implemented routing for multipage with react-router-dom

@@ -1,6 +1,6 @@
 import Hero from "./Hero";
 import Projects from "./Projects";
 import Products from "./Products";
-import GetInToach from "./GetInToach";
+import GetInTouch from "./GetInTouch";
 
-export { Hero, Projects, Products, GetInToach };
+export { Hero, Projects, Products, GetInTouch };

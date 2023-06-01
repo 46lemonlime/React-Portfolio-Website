@@ -4,7 +4,7 @@ import React from "react";
 import styles from "../../style";
 
 // import specific components
-import { Hero, Projects, Products, GetInToach } from "./components";
+import { Hero, Projects, Products, GetInTouch } from "./components";
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
           <Hero />
           <Projects />
           <Products />
-          <GetInToach />
+          <GetInTouch />
         </div>
       </div>
     </div>

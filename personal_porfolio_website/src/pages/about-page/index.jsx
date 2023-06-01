@@ -6,6 +6,7 @@ import styles, { layout } from "../../style";
 // import specific components
 import AboutIntro from "./components/AboutIntro";
 import AboutFeature from "./components/AboutFeature";
+import { Testimonials } from "../../components";
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
         >
           <AboutIntro />
         </section>
+        <Testimonials />
       </div>
     </div>
   );

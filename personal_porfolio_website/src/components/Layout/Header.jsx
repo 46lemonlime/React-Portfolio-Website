@@ -1,7 +1,10 @@
 import React from "react";
 
-import Navbar from "../Navbar";
+// import styles
 import styles from "../../style";
+
+// import components
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (

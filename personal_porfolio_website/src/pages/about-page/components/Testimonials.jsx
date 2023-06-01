@@ -1,6 +1,11 @@
-import { feedback } from "../constants";
-import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
+// import styles
+import styles from "../../../style";
+
+// import constants
+import { feedback } from "../../../constants";
+
+// import global components
+import FeedbackCard from "../../../components/FeedbackCard";
 
 const Testimonials = () => {
   return (
@@ -8,15 +13,10 @@ const Testimonials = () => {
       id="clients"
       className={`${styles.paddingY} text-center flex-col relative`}
     >
-      Testimonials
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/4 rounded-full red__gradient" />
       <div className="w-full flex justify-between items-center flex-col sm:mb-16 mb-6 relative z-[1]">
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full mt-10">
-          Testimonials
-        </h1>
-        <h1
-          className={`font-poppins font-semibold xs:text-[40px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-center text-gradient`}
-        >
+        <h2 className={`${styles.heading2}`}>Testimonials</h2>
+        <h1 className={`${styles.heading3} text-gradient mt-5`}>
           What people are saying about me
         </h1>
       </div>
