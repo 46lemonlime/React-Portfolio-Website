@@ -11,6 +11,9 @@ import Contact from "../pages/contact-page";
 import Projects from "../pages/portfolio-page";
 import Services from "../pages/services-page";
 import Construction from "../pages/construction-page";
+import CallTracker from "../pages/project-CPT-page";
+import PortfolioWeb from "../pages/project-portfolioweb-page";
+import PokerDisplay from "../pages/project-PSD-page";
 import Error from "../pages/error-page";
 
 const App = () => {
@@ -24,6 +27,9 @@ const App = () => {
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/construction" element={<Construction />} />
+          <Route exact path="/CPT" element={<CallTracker />} />
+          <Route exact path="/PortfolioWeb" element={<PortfolioWeb />} />
+          <Route exact path="/PSD" element={<PokerDisplay />} />
           <Route exact path="/*" element={<Error />} />
         </Routes>
       </Layout>

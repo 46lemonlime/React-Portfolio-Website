@@ -72,7 +72,7 @@ export const features = [
     icon: books,
     title: "Education & Experience",
     content:
-      "Customer Service Specialist Apprenticeship - Paragon Skills, CS50 - Harvard Open Courses",
+      "Customer Service Specialist Apprenticeship - Paragon Skills, CS50x - Harvard Open Courses",
   },
   {
     id: "feature-3",
@@ -118,7 +118,7 @@ export const projects = [
     title: "VBA",
     content:
       "Desktop application designed to empower customer service agents during calls. Developed using VBA, helps agents deliver outstanding service and exceeding KPIs.",
-    link: "/Construction",
+    link: "/CPT",
   },
   {
     id: "project-2",
@@ -127,7 +127,7 @@ export const projects = [
     title: "VBA",
     content:
       "Desktop application designed to provide poker players accurate adherence and optimal study with their customized poker strategy.",
-    link: "/Construction",
+    link: "/PSD",
   },
   {
     id: "project-3",
@@ -136,7 +136,7 @@ export const projects = [
     title: "HTML, CSS, Javascript, React, Tailwind, Vite",
     content:
       "Dynamic website used as a platform to introduce myself, display my work, and highlight my expertise, skills and achievements in various fields.",
-    link: "/Construction",
+    link: "/PortfolioWeb",
   },
 ];
 
