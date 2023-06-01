@@ -5,6 +5,7 @@
 - standardised styling for html elements
 - amended Projects and Services card style
 - fixed typo's and added content
+- added projects individual pages content
 
 05.2023
 - Implemented routing for multipage with react-router-dom
