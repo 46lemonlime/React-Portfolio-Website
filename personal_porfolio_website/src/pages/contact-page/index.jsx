@@ -13,7 +13,6 @@ import { chat } from "../../assets";
 import Button from "../../components/Button";
 
 // import specific components
-import ContactInfo from "./components/ContactInfo";
 import ContactForm from "./components/ContactForm";
 
 const Contact = () => {
@@ -51,7 +50,7 @@ const Contact = () => {
             />
           </div>
         </section>
-        <ContactInfo />
+
         <ContactForm />
       </div>
     </div>

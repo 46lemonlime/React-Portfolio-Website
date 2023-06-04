@@ -189,3 +189,41 @@
   fill: #ff004f;
   transform: translateY(10px);
 }
+
+/* 
+//* Fixed focus behaviour on form textbox - before tailwindcssforms installed
+input,
+textarea {
+  padding: 5px;
+  margin-bottom: 5px;
+  outline: none;
+}
+form,
+label {
+  margin: 10px;
+}
+*/
+
+/* Change color in autofill textbox */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill {
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Dropdown select menu styling */
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: gray;
+}

@@ -18,7 +18,7 @@ import { location } from "../../../assets";
 // import components
 import Button from "../../../components/Button";
 
-const ContactForm = () => {
+const ContactForm_test = () => {
   // Formik logics
   const formik = useFormik({
     initialValues: {
@@ -257,4 +257,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ContactForm_test;
