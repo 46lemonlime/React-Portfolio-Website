@@ -13,8 +13,7 @@ import { chat } from "../../assets";
 import Button from "../../components/Button";
 
 // import specific components
-import ContactInfo from "./components/ContactInfo";
-import ContactForm from "./components/ContactForm";
+import ContactForm from "./components/ContactForm_test";
 
 const Contact = () => {
   return (
@@ -51,7 +50,7 @@ const Contact = () => {
             />
           </div>
         </section>
-        <ContactInfo />
+
         <ContactForm />
       </div>
     </div>
