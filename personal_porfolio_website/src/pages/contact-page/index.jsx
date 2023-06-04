@@ -13,7 +13,7 @@ import { chat } from "../../assets";
 import Button from "../../components/Button";
 
 // import specific components
-import ContactForm from "./components/ContactForm_test";
+import ContactForm from "./components/ContactForm";
 
 const Contact = () => {
   return (

@@ -38,13 +38,11 @@ const ContactForm_test = () => {
       email: Yup.string()
         .email("Invalid email address.")
         .required("Email is required."),
-      phone: Yup.string().max(17, "Invalid phone number length."),
-      subject: Yup.string()
-        .max(30, "Name must be 30 characters or less.")
-        .required("Name is required."),
-      message: Yup.string()
-        .max(30, "Name must be 30 characters or less.")
-        .required("Name is required."),
+      phone: Yup.string()
+        .max(17, "Invalid phone number length.")
+        .min(7, "Invalid phone number length."),
+      subject: Yup.string().required("Subject is required."),
+      message: Yup.string().required("Message is required."),
       terms: Yup.array().required("Terms of service must be checked."),
     }),
 
@@ -66,10 +64,14 @@ const ContactForm_test = () => {
           {/* name input */}
           <div>
             <label
-              className="block font-poppins font-semibold text-sm ml-2 text-white"
+              className={`block font-poppins font-semibold text-sm ml-2 text-white ${
+                formik.touched.name && formik.errors.name ? "text-red-500" : ""
+              }`}
               htmlFor="name"
             >
-              Name:{" "}
+              {formik.touched.name && formik.errors.name
+                ? formik.errors.name
+                : "Name: "}
             </label>
             <input
               id=""
@@ -78,16 +80,23 @@ const ContactForm_test = () => {
               name="name"
               value={formik.values.name}
               onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
               placeholder="Enter name..."
             />
           </div>
           {/* email input */}
           <div>
             <label
-              className="block font-poppins font-semibold text-sm ml-2 text-white"
+              className={`block font-poppins font-semibold text-sm ml-2 text-white ${
+                formik.touched.email && formik.errors.email
+                  ? "text-red-500"
+                  : ""
+              }`}
               htmlFor="email"
             >
-              Email:{" "}
+              {formik.touched.email && formik.errors.email
+                ? formik.errors.email
+                : "Email: "}
             </label>
             <input
               id=""
@@ -96,16 +105,23 @@ const ContactForm_test = () => {
               name="email"
               value={formik.values.email}
               onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
               placeholder="Enter email address..."
             />
           </div>
           {/* phone input */}
           <div>
             <label
-              className="block font-poppins font-semibold text-sm ml-2 text-white"
+              className={`block font-poppins font-semibold text-sm ml-2 text-white ${
+                formik.touched.phone && formik.errors.phone
+                  ? "text-red-500"
+                  : ""
+              }`}
               htmlFor="phone"
             >
-              Phone:{" "}
+              {formik.touched.phone && formik.errors.phone
+                ? formik.errors.phone
+                : "Phone: "}
             </label>
             <input
               id=""
@@ -114,16 +130,23 @@ const ContactForm_test = () => {
               name="phone"
               value={formik.values.phone}
               onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
               placeholder="Enter phone number..."
             />
           </div>
           {/* subject input */}
           <div>
             <label
-              className="block font-poppins font-semibold text-sm ml-2 text-white"
+              className={`block font-poppins font-semibold text-sm ml-2 text-white ${
+                formik.touched.subject && formik.errors.subject
+                  ? "text-red-500"
+                  : ""
+              }`}
               htmlFor="subject"
             >
-              Subject:{" "}
+              {formik.touched.subject && formik.errors.subject
+                ? formik.errors.subject
+                : "Subject: "}
             </label>
             <select
               id=""
@@ -133,6 +156,7 @@ const ContactForm_test = () => {
               placeholder="Enter subject..."
               value={formik.values.subject}
               onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
               required
             >
               <option value="" disabled selected>
@@ -150,14 +174,21 @@ const ContactForm_test = () => {
           {/* message input */}
           <div>
             <label
-              className="block font-poppins font-semibold text-sm ml-2 text-white"
+              className={`block font-poppins font-semibold text-sm ml-2 text-white ${
+                formik.touched.message && formik.errors.message
+                  ? "text-red-500"
+                  : ""
+              }`}
               htmlFor="message"
             >
-              Message:{" "}
+              {formik.touched.message && formik.errors.message
+                ? formik.errors.message
+                : "Message: "}
             </label>
             <textarea
               value={formik.values.message}
               onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
               className="bg-primary text-dimWhite border-gray-500 rounded-md border-2 w-full p-2 my-2 py-1 mb-2 focus:border-secondary focus:ring-secondary"
               name="message"
               id=""
@@ -168,10 +199,16 @@ const ContactForm_test = () => {
           {/* terms checkbox */}
           <div>
             <label
-              className="block font-poppins font-semibold text-sm ml-2 text-white"
+              className={`block font-poppins font-semibold text-sm ml-2 text-white ${
+                formik.touched.terms && formik.errors.terms
+                  ? "text-red-500"
+                  : ""
+              }`}
               htmlFor="terms"
             >
-              Terms of Service:{" "}
+              {formik.touched.terms && formik.errors.terms
+                ? formik.errors.terms
+                : "Terms of service: "}
             </label>
             <div className="flex items-center gap-2 w-full p-2 my-2 py-1 mb-2">
               <input
@@ -179,6 +216,7 @@ const ContactForm_test = () => {
                 name="terms"
                 value="checked"
                 onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
                 className="bg-primary w-5 h-5 text-secondary border-2 border-gray-500 active:bg-secondary focus:ring-secondary "
               />
               <p className={`${styles.paragraph2} max-w-[470px] `}>
